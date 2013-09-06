@@ -89,7 +89,7 @@
                     {% for mediaNode in child.mediaNodes %}
                         {% if loop.first %}
 
-                            <div class="wrapper" id="{{mediaNode.media.id}}"></div>
+                            <div class="wrapper" data-height="{{ mediaNode.media.getHeight() }}" data-width="{{ mediaNode.media.getWidth() }}" id="{{mediaNode.media.id}}"></div>
 
                             <script type="">
                                 $(function () {
@@ -147,8 +147,35 @@
             
             $(window).resize(function(){
 
+                console.log($(".wrapper").width())
 
-                $(".wrapper").css("height", (String)($(window).width() / 3.0));
+                // j'ai le width du container
+                // donc le height est...
+
+                //image.width
+                // image.height
+                // var ratio = w / h
+                // image.height = container.width * ratio
+
+                $( ".wrapper" ).each(function( index ) {
+
+                    var width = $(this).attr("data-width")
+                    var height = $(this).attr("data-height")
+
+                    var ratio = width / height;
+
+                    var finalHeight = $(".wrapper").width() * ratio;
+
+                    console.log(finalHeight)
+
+                    $(".wrapper").css("height", (String)(finalHeight));
+
+                    console.log( width );
+                });
+
+
+
+
 
                 $('.container-isotope').isotope({
                     itemSelector : '.item',
