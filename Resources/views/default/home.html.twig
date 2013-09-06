@@ -57,35 +57,56 @@
     width: 270px;
   }
 }
+.isotope .item {
+    position: static ! important;
+    -webkit-transform: translate(0px, 0px) ! important;
+    -moz-transform: translate(0px, 0px) ! important;
+    transform: translate(0px, 0px) ! important;
+}
+
+.wrapper {
+    background-repeat: no-repeat;
+
+    margin-bottom: 20px;
+    background-size: cover;
+    width: 100%;
+
+    position:static;
+}
 
 
 </style>
 
-    <div class="container container-isotope " style="margin-left:-0px" >
-    	
-    	<div class="row">
 
-            {% for node in nodes %}
+        {% for node in nodes %}
 
-                {%  if loop.first %}
+            {%  if loop.first %}
 
                 {% for child in node.children %}
-                
 
 
-                            {% for mediaNode in child.mediaNodes %}
-                                {% if loop.first %}
-                                
-                                  <div class="post item span4">
-								    
-							           <a href="{{path('page', {'slug': child.slug}) }}">
-							           <img class="img-home lazy" width={{mediaNode.media.getWidth()}}  height= {{mediaNode.media.getHeight()}} class="lazy" src="{{ asset('bundles/scrclubscrclub/images/transparent.gif') }}"  data-original="{{asset(mediaNode.media.getWebPath())}}" " alt="{{ mediaNode.media.name }}"  />
-							           </a>
-								  </div>
-                                
-                                
-                                    {%  endif  %}
-                            {%  endfor  %}
+
+                    {% for mediaNode in child.mediaNodes %}
+                        {% if loop.first %}
+
+                            <div class="wrapper" id="{{mediaNode.media.id}}"></div>
+
+                            <script type="">
+                                $(function () {
+
+                                   // background-image: url(http://placehold.it/250x250);
+
+                                    console.log($("#{{mediaNode.media.id}}"));
+
+                                    $("#{{mediaNode.media.id}}").css("background-image", "url({{asset(mediaNode.media.getWebPath())}})");
+                                    $("#{{mediaNode.media.id}}").css("height", "300");
+
+                                });
+                            </script>
+
+
+                        {%  endif  %}
+                    {%  endfor  %}
 
 
 
@@ -95,22 +116,24 @@
                 {% endfor %}
 
 
-                {% endif %}
+            {% endif %}
 
-            {% endfor %}
-
-  </div>
-
-        </div>
+        {% endfor %}
 
 
-    </div>
+
+
 
    <script src=" {{ asset('bundles/scrclubscrclub/js/jquery.isotope.min.js') }}"></script>
     <script>
 
 
         $(function () {
+
+            //$.backstretch("https://dl.dropboxusercontent.com/u/817108/screenclub/about.jpg");
+
+
+
 
             $('.container-isotope').isotope({
              	itemSelector : '.item',
@@ -122,9 +145,24 @@
                 }
             });
             
-            $(window).smartresize(function(){
-			  $('.container-isotope').isotope('reLayout');
-			});
+            $(window).resize(function(){
+
+
+                $(".wrapper").css("height", (String)($(window).width() / 3.0));
+
+                $('.container-isotope').isotope({
+                    itemSelector : '.item',
+                    animationOptions: {
+                        itemSelector : '.item',
+                        duration: 0,
+                        easing: 'linear',
+                        queue: false
+                    }
+                });
+
+
+
+            });
 			
 			   $(".lazy").lazyload({
 
