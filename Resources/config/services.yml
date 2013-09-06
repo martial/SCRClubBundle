@@ -1,0 +1,7 @@
+parameters:
+#    scrclub_preview.example.class: scrclub\PreviewBundle\Example
+
+services:
+#    scrclub_preview.example:
+#        class: %scrclub_preview.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

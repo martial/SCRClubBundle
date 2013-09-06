@@ -1,0 +1,95 @@
+{% extends "scrclubSCRClubBundle:default:index.html.twig" %}
+
+{% block body %}
+
+    <div class="container-fluid"  style="margin-left: -14px">
+
+
+
+        {%  for mediaNode in node.mediaNodes %}
+
+                {% if  loop.index0 == 1 %}
+
+                <div class="row-fluid">
+                	
+                	{% if mediaNode.media.getType() == "image" %}
+                	                    <img  alt="{{ mediaNode.media.name }}" src="{{asset(mediaNode.media.getWebPath() )}}"  style="width: 100%; padding-bottom: 25px">
+
+                	{% else %}
+                		
+                		{{ getEmbed(mediaNode.media, "100%", 500)}}
+                	
+                	{% endif %}	
+                
+                </div>
+
+                {% endif %}
+
+        {% endfor %}
+
+        {%  for mediaNode in node.mediaNodes %}
+
+                {% if  loop.index0 > 1 %}
+                
+                	
+                    {% set bNewPage =  ( loop.index is odd )  %}
+                    {% if bNewPage %}
+                    
+                                
+                    <div class="row-fluid" >
+                    {% endif %}
+                    
+                    
+
+                    <div class="span6" style = "padding-bottom:20px; " >
+                    	
+                    	{% if mediaNode.media.getType() == "image" %}
+                    	
+                    		<img width="100%" alt="{{ mediaNode.media.name }}" src="{{asset(mediaNode.media.getWebPath() )}}">
+
+                	{% else %}
+                	
+                		
+                		
+                		{{ getEmbed(mediaNode.media, "100%", 500)}}
+                	
+                	{% endif %}	
+
+                    	
+                        
+                    </div>
+                    
+					{% set bNewPage =  ( loop.index is even)  %}
+                    {% if bNewPage %}
+                    </div>
+                    {% endif %}
+                    	
+                    	
+                     {% if loop.last and  loop.index is odd > 0 %}
+                    </div>
+                    {% endif %}
+
+
+
+                {% endif %}
+
+        {% endfor %}
+
+        <div class="row-fluid">
+
+            <div class="span12  main-text" style="margin-top: 18px; margin-left: 8px; margin-right: 8px; margin-bottom: 30px">
+                <p id="title-project">{{node.name | raw }}</p>
+                <p id="content-project">{{node.description | raw }}</p>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+{% endblock %}
+

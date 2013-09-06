@@ -1,0 +1,148 @@
+{% extends "scrclubSCRClubBundle:default:index.html.twig" %}
+
+{% block body %}
+
+<style>
+	
+.post img.img-home {
+  max-width: 100%;
+  margin-top: 9px;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+  header h1 small {
+    display: block;
+  }
+
+  header div.description {
+    padding-top: 9px;
+    padding-bottom: 4px;
+  }
+
+  .isotope .item {
+    position: static ! important;
+    -webkit-transform: translate(0px, 0px) ! important;
+       -moz-transform: translate(0px, 0px) ! important;
+            transform: translate(0px, 0px) ! important;
+  }
+}
+
+@media (max-width: 980px) {
+  header p.lead span {
+    display: block;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 980px) {
+  #posts .span4 {
+    width: 352px;
+  }
+}
+
+@media (min-width: 980px) {
+
+}
+
+@media (min-width: 1200px) {
+  #posts .span4 {
+    width: 270px;
+  }
+}
+
+
+</style>
+
+    <div class="container container-isotope " style="margin-left:-0px" >
+    	
+    	<div class="row">
+
+            {% for node in nodes %}
+
+                {%  if loop.first %}
+
+                {% for child in node.children %}
+                
+
+
+                            {% for mediaNode in child.mediaNodes %}
+                                {% if loop.first %}
+                                
+                                  <div class="post item span4">
+								    
+							           <a href="{{path('page', {'slug': child.slug}) }}">
+							           <img class="img-home lazy" width={{mediaNode.media.getWidth()}}  height= {{mediaNode.media.getHeight()}} class="lazy" src="{{ asset('bundles/scrclubscrclub/images/transparent.gif') }}"  data-original="{{asset(mediaNode.media.getWebPath())}}" " alt="{{ mediaNode.media.name }}"  />
+							           </a>
+								  </div>
+                                
+                                
+                                    {%  endif  %}
+                            {%  endfor  %}
+
+
+
+
+
+
+                {% endfor %}
+
+
+                {% endif %}
+
+            {% endfor %}
+
+  </div>
+
+        </div>
+
+
+    </div>
+
+   <script src=" {{ asset('bundles/scrclubscrclub/js/jquery.isotope.min.js') }}"></script>
+    <script>
+
+
+        $(function () {
+
+            $('.container-isotope').isotope({
+             	itemSelector : '.item',
+                animationOptions: {
+                    itemSelector : '.item',
+                    duration: 0,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+            
+            $(window).smartresize(function(){
+			  $('.container-isotope').isotope('reLayout');
+			});
+			
+			   $(".lazy").lazyload({
+
+	            load : function()
+	            {
+	                 $('.container-isotope').isotope('reLayout');
+	                 
+	            }
+
+        });
+                     
+           
+
+        })
+
+
+    </script>
+
+
+{% endblock %}
+

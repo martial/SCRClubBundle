@@ -1,0 +1,31 @@
+{% extends "scrclubSCRClubBundle:default:index.html.twig" %}
+
+{% block body %}
+	
+	<div class="container">
+	    <div class="span6 white main-text">
+	
+	        <p>{{ node.description | raw }}</p>
+	
+	    </div>
+    </div>
+
+
+
+    <script>
+    	
+    	$(function() {
+    	
+    	 $.backstretch("https://dl.dropboxusercontent.com/u/817108/screenclub/about.jpg");
+        $(".page-header").addClass("no-bottom-line");
+        $("body").css("background", "black");
+    	
+    	
+    	})
+       
+
+    </script>
+
+
+{% endblock %}
+

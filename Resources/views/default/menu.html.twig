@@ -1,0 +1,37 @@
+<div id="">
+
+    <!-- Begin page content -->
+    <div class="custom-container">
+
+
+        <div class="page-header ">
+            <div class="subs">
+
+                <ul class="unstyled">
+
+                    <li>
+                        <p>Martial Geoffre-Rouland</p>
+                    </li>
+                    <li>
+                        <p>Design interactif</p>
+                    </li>
+                    <li>
+                        <p>
+                        {% for node in nodes %}
+                            <a href="{{path('page', {'slug': node.slug}) }}">{{node.name}}</a>
+                            {% if not loop.last %} -
+                            {% endif %}
+                        {%  endfor %}
+                        </p>
+
+
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="push"></div>
