@@ -1,40 +1,40 @@
 
-<div class="container">
-    <div class="page-header"></div>
-    <div class="row">
-        <div class="logo-header col-xs-12">
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="page-header"></div>
+        <div class="row row-menu">
+            <div class="logo-header col-xs-12">
 
-            <div style="padding-left:0px" class="col-xs-6 col-sm-6 col-md-2">
-            SCREENCLUB.<p style="height:24px" id ="shuffle">Interactive Design</p>
+                <div style="padding-left:0px" class="col-xs-6 col-sm-6 col-md-2">
+                SCREENCLUB.<p style="height:24px" id ="shuffle">Interactive Design</p>
+                </div>
+                <div style="padding-left:0px"  class="col-xs-6 logo col-sm-6 col-md-1">
+                <img src="{{ asset('bundles/scrclubscrclub/images/logo.png') }}"/>
+                </div>
             </div>
-            <div style="padding-left:0px"  class="col-xs-6 logo col-sm-6 col-md-1">
-            <img src="{{ asset('bundles/scrclubscrclub/images/logo.png') }}"/>
+            <div class="col-xs-10 col-sm-10 col-md-3">
+
+                <ul class="top-menu list-unstyled">
+                {% for node in nodes %}
+                    <li><a href="{{path('page', {'slug': node.slug}) }}">{{node.name}}</a></li>
+                {%  endfor %}
+                </ul>
+
             </div>
+            <div class="col-xs-12 col-sm-12 col-md-3"></div>
+            <div class="col-xs-12 col-sm-12 col-md-3"></div>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-3">
 
-            <ul class="top-menu list-unstyled">
-            {% for node in nodes %}
-                <li><a href="{{path('page', {'slug': node.slug}) }}">{{node.name}}</a></li>
-            {%  endfor %}
-            </ul>
+        <!-- delimiters-->
 
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3"></div>
-        <div class="col-xs-12 col-sm-12 col-md-3"></div>
+
+
+
+        {% include 'scrclubSCRClubBundle:default:delimiters.html.twig' with {'type': menuType} %}
+
+
+
     </div>
-
-    <!-- delimiters-->
-
-
-
-    <div class="row">
-        <div class="col-xs-12 col-md-3"><div class="block-delimiter"></div></div>
-        <div class=" col-xs-6 col-md-3"><div class="block-delimiter"></div></div>
-        <div class=" col-xs-6 col-md-3"><div class="block-delimiter"></div></div>
-        <div class=" col-xs-12 col-md-3"><div class="block-delimiter"></div></div>
-    </div>
-
 
 </div>
 

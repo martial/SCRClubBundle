@@ -547,7 +547,7 @@ h4 small,
 
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 20px 0 20px;
 }
 
 ul,
@@ -4372,8 +4372,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .navbar-default .navbar-brand {
@@ -4404,7 +4404,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
-  background-color: #e7e7e7;
+  background-color: #000000;
 }
 
 .navbar-default .navbar-nav > .disabled > a,
@@ -4429,7 +4429,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e6e6e6;
+  border-color: #000000;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
@@ -4442,7 +4442,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555555;
-  background-color: #e7e7e7;
+  background-color: #000000;
 }
 
 .navbar-default .navbar-nav > .open > a .caret,
@@ -4470,7 +4470,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
-    background-color: #e7e7e7;
+    background-color: #000000;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -6827,6 +6827,10 @@ td.visible-print {
   src: url('../../fonts/akzidenzgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/akzidenzgrotesk-light-webfont.woff') format('woff'), url('../../fonts/akzidenzgrotesk-light-webfont.ttf') format('truetype'), url('../../fonts/akzidenzgrotesk-light-webfont.svg#akzidenz-grotesk_bq_lightRg') format('svg');
 }
 
+.container-fixed-menu {
+  margin-top: 140px;
+}
+
 .logo-header {
   margin-top: -4px;
   font-family: "AkzidenzBQCondensed";
@@ -6836,6 +6840,10 @@ td.visible-print {
 .logo-header p {
   margin-top: -10px;
   font-size: 24px;
+}
+
+.row-menu {
+  padding-bottom: 20px;
 }
 
 .block-delimiter {
@@ -6887,7 +6895,7 @@ td.visible-print {
     padding-top: 10px;
     margin-top: 10px;
     font-family: "AkzidenzBQCondensed";
-    font-size: 20 px;
+    font-size: 20px;
     border-top: 1px solid #FFFFFF;
     border-top: 1px;
     border-top: solid;
