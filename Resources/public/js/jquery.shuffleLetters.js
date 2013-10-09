@@ -20,7 +20,7 @@
 		return this.each(function(){
 			
 			var el = $(this),
-				str = "&nbsp;";
+				str = "";
 
 
 			// Preventing parallel animations using a flag;
@@ -68,7 +68,7 @@
 				letters.push(i);
 			}
 			
-			el.html("&nbsp;");
+			el.html("");
 
 			// Self executing named function expression:
 			
@@ -102,7 +102,7 @@
 						strCopy[letters[i]] = randomChar(types[letters[i]]);
 					}
 					else {
-						strCopy[letters[i]] = "&nbsp;";
+						strCopy[letters[i]] = "";
 					}
 				}
 				

@@ -30,7 +30,7 @@
 
                         <a href="{{path('page', {'slug': child.slug}) }}">
                             <div class="img-content">
-                            <img  src="{{asset(mediaNode.media.getWebPath()  )}}" />
+                            <img  src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_home') )}}" />
                             <div class="white-block" style=""  >{{ child.name }}</div>
                             </div>
                         </a>
