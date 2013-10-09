@@ -74,6 +74,32 @@
 
     }
 
+    var win = jQuery(window);
+    win.bind('resize scroll', updateMenu);
+
+    function updateMenu () {
+
+        var scrolled = win.scrollTop();
+        //console.log(scrolled)
+
+
+
+            var max = 20;
+            var ratio = max * scrolled / 40;
+            ratio = (max - ratio);
+
+            var value = ( ratio < -10 ) ? -10 : ratio;
+
+
+
+            $(".page-header").css('margin-top', value+'px')
+
+
+
+    }
+
+
+
     /*
     setInterval( function () {
 
