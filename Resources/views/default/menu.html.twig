@@ -1,37 +1,41 @@
-<div id="">
 
-    <!-- Begin page content -->
-    <div class="custom-container">
+<div class="container">
+    <div class="page-header"></div>
+    <div class="row">
+        <div class="logo-header col-xs-12">
 
-
-        <div class="page-header ">
-            <div class="subs">
-
-                <ul class="unstyled">
-
-                    <li>
-                        <p>Martial Geoffre-Rouland</p>
-                    </li>
-                    <li>
-                        <p>Design interactif</p>
-                    </li>
-                    <li>
-                        <p>
-                        {% for node in nodes %}
-                            <a href="{{path('page', {'slug': node.slug}) }}">{{node.name}}</a>
-                            {% if not loop.last %} -
-                            {% endif %}
-                        {%  endfor %}
-                        </p>
-
-
-
-                    </li>
-
-                </ul>
-
+            <div style="padding-left:0px" class="col-xs-6 col-sm-6 col-md-2">
+            SCREENCLUB.<p style="height:24px" id ="shuffle">Interactive Design</p>
             </div>
+            <div style="padding-left:0px"  class="col-xs-6 logo col-sm-6 col-md-1">
+            <img src="{{ asset('bundles/scrclubscrclub/images/logo.png') }}"/>
+            </div>
+        </div>
+        <div class="col-xs-10 col-sm-10 col-md-3">
+
+            <ul class="top-menu list-unstyled">
+            {% for node in nodes %}
+                <li><a href="{{path('page', {'slug': node.slug}) }}">{{node.name}}</a></li>
+            {%  endfor %}
+            </ul>
 
         </div>
+        <div class="col-xs-12 col-sm-12 col-md-3"></div>
+        <div class="col-xs-12 col-sm-12 col-md-3"></div>
+    </div>
 
-        <div id="push"></div>
+    <!-- delimiters-->
+
+
+
+    <div class="row">
+        <div class="col-xs-12 col-md-3"><div class="block-delimiter"></div></div>
+        <div class=" col-xs-6 col-md-3"><div class="block-delimiter"></div></div>
+        <div class=" col-xs-6 col-md-3"><div class="block-delimiter"></div></div>
+        <div class=" col-xs-12 col-md-3"><div class="block-delimiter"></div></div>
+    </div>
+
+
+</div>
+
+

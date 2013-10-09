@@ -2,189 +2,67 @@
 
 {% block body %}
 
-<style>
-	
-.post img.img-home {
-  max-width: 100%;
-  margin-top: 9px;
-}
 
-@media (max-width: 480px) {
-
-}
-
-@media (max-width: 768px) {
-  header h1 small {
-    display: block;
-  }
-
-  header div.description {
-    padding-top: 9px;
-    padding-bottom: 4px;
-  }
-
-  .isotope .item {
-    position: static ! important;
-    -webkit-transform: translate(0px, 0px) ! important;
-       -moz-transform: translate(0px, 0px) ! important;
-            transform: translate(0px, 0px) ! important;
-  }
-}
-
-.isotope .item {
-    position: static ! important;
-    -webkit-transform: translate(0px, 0px) ! important;
-    -moz-transform: translate(0px, 0px) ! important;
-    transform: translate(0px, 0px) ! important;
-}
-
-.container-custom {
-
-    overflow:hidden;
-}
-
-.wrapper {
-
-    float: left;
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    width: 25%;
-    position:static;
-    display: inline-block
-}
-
-
-</style>
-
-        <div class="container-custom">
-        {% for node in nodes %}
-
-            {%  if loop.first %}
-
-                {% for child in node.children %}
+<div class="container">
 
 
 
-                    {% for mediaNode in child.mediaNodes %}
-                        {% if loop.first %}
-
-                            <div class="wrapper " data-height="{{ mediaNode.media.getHeight() }}" data-width="{{ mediaNode.media.getWidth() }}" id="{{mediaNode.media.id}}"></div>
-
-                            <script type="">
-                                $(function () {
-
-                                   // background-image: url(http://placehold.it/250x250);
-
-                                    console.log($("#{{mediaNode.media.id}}"));
-
-                                    $("#{{mediaNode.media.id}}").css("background-image", "url({{asset(mediaNode.media.getWebPath())}})");
-                                    $("#{{mediaNode.media.id}}").css("height", "300");
-
-                                });
-                            </script>
+{% set rowCount = 0 %}
+{% for node in nodes %}
 
 
-                        {%  endif  %}
-                    {%  endfor  %}
+    {%  if loop.first %}
+
+        {% for child in node.children %}
+
+            {% for mediaNode in child.mediaNodes %}
+                {% if loop.first %}
+
+                    {% if rowCount % 4 == 0 and rowCount > 0  %}
+                    </div>
+                    {% endif %}
+
+                    {% if rowCount % 4 == 0 or rowCount == 0 %}
+                    <div class="row home-grid">
+                    {% endif %}
+
+                    <div class="img-block col-xs-12 col-md-3">
+
+                        <a href="{{path('page', {'slug': child.slug}) }}">
+                            <div class="img-content">
+                            <img  src="{{asset(mediaNode.media.getWebPath()  )}}" />
+                            <div class="white-block" style=""  >{{ child.name }}</div>
+                            </div>
+                        </a>
+                    </div>
 
 
 
-
-
-
-                {% endfor %}
-
-
-            {% endif %}
-
+                    {% set rowCount = rowCount +1 %}
+                {%  endif  %}
+            {%  endfor  %}
         {% endfor %}
+    {% endif %}
+{% endfor %}
 
-        </div>
+                        {% if rowCount % 4 != 0  %}
+                    </div>
+    {% endif %}
 
+</div>
 
-
-   <script src=" {{ asset('bundles/scrclubscrclub/js/jquery.isotope.min.js') }}"></script>
     <script>
 
+        $(function(){
 
-        $(function () {
 
             //$.backstretch("https://dl.dropboxusercontent.com/u/817108/screenclub/about.jpg");
 
 
 
-
-            $('.container-isotope').isotope({
-             	itemSelector : '.item',
-                animationOptions: {
-                    itemSelector : '.item',
-                    duration: 0,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-            
-            $(window).resize(function(){
-
-                console.log($(".wrapper").width())
-
-                // j'ai le width du container
-                // donc le height est...
-
-                //image.width
-                // image.height
-                // var ratio = w / h
-                // image.height = container.width * ratio
-
-                $( ".wrapper" ).each(function( index ) {
-
-                    var width = $(this).attr("data-width")
-                    var height = $(this).attr("data-height")
-
-                    var ratio = $(".wrapper").width() / width;
-
-                    var finalHeight = height * ratio;
-
-                    console.log(finalHeight)
-
-
-                    $(".wrapper").css("height", (String)(finalHeight));
-
-                    console.log( width );
-                });
-
-
-
-
-
-                $('.container-isotope').isotope({
-                    itemSelector : '.item',
-                    animationOptions: {
-                        itemSelector : '.item',
-                        duration: 0,
-                        easing: 'linear',
-                        queue: false
-                    }
-                });
-
-
-
-            });
-			
-			   $(".lazy").lazyload({
-
-	            load : function()
-	            {
-	                 $('.container-isotope').isotope('reLayout');
-	                 
-	            }
-
         });
-                     
-           
 
-        })
+
 
 
     </script>

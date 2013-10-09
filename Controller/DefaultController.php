@@ -59,7 +59,6 @@ class DefaultController extends SiteController
         // get node
 
 
-
         $nodes = $this->getRootNodes();
         $node = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->findOneBySlug($slug);
 

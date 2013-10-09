@@ -2,93 +2,51 @@
 
 {% block body %}
 
-    <div class="container-fluid"  style="margin-left: -14px">
+    <div class="container">
 
 
+            <div class="row home-grid">
+                <div class="col-xs-12 col-md-3">
 
-        {%  for mediaNode in node.mediaNodes %}
+                    <div class="project-name">{{node.name | raw }}</div>
+                    {{node.description | raw }}
 
-                {% if  loop.index0 == 1 %}
-
-                <div class="row-fluid">
-                	
-                	{% if mediaNode.media.getType() == "image" %}
-                	                    <img  alt="{{ mediaNode.media.name }}" src="{{asset(mediaNode.media.getWebPath() )}}"  style="width: 100%; padding-bottom: 25px">
-
-                	{% else %}
-                		
-                		{{ getEmbed(mediaNode.media, "100%", 500)}}
-                	
-                	{% endif %}	
-                
                 </div>
+                <div class=" col-xs-12 col-md-9">
 
-                {% endif %}
+                    {%  for mediaNode in node.mediaNodes %}
 
-        {% endfor %}
+                            {% if mediaNode.media.getType() == "image" %}
+                                <img  alt="{{ mediaNode.media.name }}" src="{{asset(mediaNode.media.getWebPath() )}}"  style="width: 100%; padding-bottom: 25px">
 
-        {%  for mediaNode in node.mediaNodes %}
+                            {% else %}
 
-                {% if  loop.index0 > 1 %}
-                
-                	
-                    {% set bNewPage =  ( loop.index is odd )  %}
-                    {% if bNewPage %}
-                    
-                                
-                    <div class="row-fluid" >
-                    {% endif %}
-                    
-                    
+                                {{ getEmbed(mediaNode.media, "100%", 500)}}
 
-                    <div class="span6" style = "padding-bottom:20px; " >
-                    	
-                    	{% if mediaNode.media.getType() == "image" %}
-                    	
-                    		<img width="100%" alt="{{ mediaNode.media.name }}" src="{{asset(mediaNode.media.getWebPath() )}}">
-
-                	{% else %}
-                	
-                		
-                		
-                		{{ getEmbed(mediaNode.media, "100%", 500)}}
-                	
-                	{% endif %}	
-
-                    	
-                        
-                    </div>
-                    
-					{% set bNewPage =  ( loop.index is even)  %}
-                    {% if bNewPage %}
-                    </div>
-                    {% endif %}
-                    	
-                    	
-                     {% if loop.last and  loop.index is odd > 0 %}
-                    </div>
-                    {% endif %}
+                            {% endif %}
 
 
 
-                {% endif %}
+                    {% endfor %}
 
-        {% endfor %}
-
-        <div class="row-fluid">
-
-            <div class="span12  main-text" style="margin-top: 18px; margin-left: 8px; margin-right: 8px; margin-bottom: 30px">
-                <p id="title-project">{{node.name | raw }}</p>
-                <p id="content-project">{{node.description | raw }}</p>
+                </div>
             </div>
 
+
         </div>
-
-
 
     </div>
 
 
+    <script>
+        $(function () {
+
+            $.backstretch("https://dl.dropboxusercontent.com/u/817108/screenclub/about.jpg");
+
+
+        })
+
+    </script>
 
 
 {% endblock %}

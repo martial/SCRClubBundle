@@ -1,0 +1,37 @@
+body {
+
+    background-color: #020000;
+    color: #FFFFFF;
+}
+
+a {
+
+    color: #FFFFFF;
+
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+a:active{
+    color: #FFFFFF;
+}
+
+
+.white-block {
+
+    padding-left: 6px;
+}
+
+.home-grid .img-block .img-content{
+    border-bottom:1px solid #FFFFFF;
+    border-bottom-style:solid;
+    border-bottom-width:1px
+}
+
+.block-delimiter {
+
+    border-bottom: 1px solid #FFFFFF;
+
+}

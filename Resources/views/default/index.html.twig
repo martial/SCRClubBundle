@@ -8,18 +8,18 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="{{ asset('bundles/scrclubscrclub/css/bootstrap.css') }}" rel="stylesheet">
-    <link href="{{ asset('bundles/scrclubscrclub/css/bootstrap-responsive.css') }}" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href="{{ asset('bundles/scrclubscrclub/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/scrclubscrclub/css/bootstrap/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('bundles/scrclubscrclub/css/skin/dark.css') }}" rel="stylesheet">
+
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src=" {{ asset('bundles/scrclubscrclub/js/backstretch.js') }}"></script>
-        <script src=" {{ asset('bundles/scrclubscrclub/js/lazyload.js') }}"></script>
+    <script src="{{ asset('bundles/scrclubscrclub/js/jail.min.js') }}"></script>
+    <script src="{{ asset('bundles/scrclubscrclub/js/backstretch.min.js') }}"></script>
+    <script src="{{ asset('bundles/scrclubscrclub/js/jquery.shuffleLetters.js') }}"></script>
 
 
 </head>
@@ -27,14 +27,7 @@
 
 
 <body>
-<customhtml>
 
-    <div id="left"></div>
-    <div id="right"></div>
-    <div id="top"></div>
-    <div id="bottom"></div>
-
-</customhtml>
 
 {% include 'scrclubSCRClubBundle:default:menu.html.twig'  %}
 
@@ -44,6 +37,53 @@
 </div>
 <!-- container end-->
 
+<script>
+
+    updateHeadline();
+
+    function updateHeadline () {
+
+        var headlines = ["Interactive Design",
+            "Hacking band",
+            "Web brothers",
+            "Happy coders",
+            "Buttons pushers",
+            "Tools makers",
+            "Visual crew",
+            "Plug wires for you",
+            "Understand computers",
+            "See the lights",
+            "No pressure",
+            "Code = fun",
+            "is Object oriented",
+            "Disco Symfony2",
+            "MC++ for DJ",
+            "& collaborators",
+            "Gif lovers",
+            "Glitch & Gifs",
+            "Hard workers",
+            "Objective -c mieux"
+
+        ];
+        var index = parseInt(Math.random() * (headlines.length -1));
+
+        $("#shuffle").shuffleLetters({
+            "text": headlines[index]
+        });
+
+
+    }
+
+    /*
+    setInterval( function () {
+
+        updateHeadline();
+
+    },10000)
+
+    */
+
+</script>
 
 </body>
 

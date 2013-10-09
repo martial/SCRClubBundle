@@ -1,0 +1,554 @@
+
+Analyzing the following files: [90mtheme.less
+[39m
+FILE: [36mtheme.less[39m
+STATUS: [35mBusted[39m
+FAILURES: [35m138 failures[39m
+
+[36mElement selectors should not be overqualified[39m
+[90m      17. [39m.[35mbtn-default[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m      18. [39m.[35mbtn-primary[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m      19. [39m.[35mbtn-success[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m      20. [39m.[35mbtn-info[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m      21. [39m.[35mbtn-warning[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m      22. [39m.[35mbtn-danger[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m      27. [39m.[35mbtn[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-default"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m      31. [39m text-shadow: 0 1px 0 #fff;
+[90m      32. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffffff), to(#e6e6e6));
+[90m      33. [39m background-image: -webkit-linear-gradient(top, #ffffff, 0%, #e6e6e6, 100%);
+[90m      34. [39m background-image: -moz-linear-gradient(top, #ffffff 0%, #e6e6e6 100%);
+[90m      35. [39m background-image: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
+[90m      36. [39m background-repeat: repeat-x;
+[90m      37. [39m border-color: #e0e0e0;
+[90m      38. [39m border-color: #ccc;
+[90m      39. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      31. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#ffffff), to(#e6e6e6));
+
+[36mNo need to specify units when a value is 0[39m
+[90m      32. [39mbackground-image: -webkit-linear-gradient(top, #ffffff, 0[35m%[39m, #e6e6e6, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      33. [39mbackground-image: -moz-linear-gradient(top, #ffffff 0[35m%[39m, #e6e6e6 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      34. [39mbackground-image: linear-gradient(to bottom, #ffffff 0[35m%[39m, #e6e6e6 100%);
+
+[36mElement selectors should not be overqualified[39m
+[90m      42. [39m.[35mbtn-default[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-primary"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m      47. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#3071a9));
+[90m      48. [39m background-image: -webkit-linear-gradient(top, #428bca, 0%, #3071a9, 100%);
+[90m      49. [39m background-image: -moz-linear-gradient(top, #428bca 0%, #3071a9 100%);
+[90m      50. [39m background-image: linear-gradient(to bottom, #428bca 0%, #3071a9 100%);
+[90m      51. [39m background-repeat: repeat-x;
+[90m      52. [39m border-color: #2d6ca2;
+[90m      53. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3071a9', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      47. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#428bca), to(#3071a9));
+
+[36mNo need to specify units when a value is 0[39m
+[90m      48. [39mbackground-image: -webkit-linear-gradient(top, #428bca, 0[35m%[39m, #3071a9, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      49. [39mbackground-image: -moz-linear-gradient(top, #428bca 0[35m%[39m, #3071a9 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      50. [39mbackground-image: linear-gradient(to bottom, #428bca 0[35m%[39m, #3071a9 100%);
+
+[36mElement selectors should not be overqualified[39m
+[90m      56. [39m.[35mbtn-primary[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-success"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m      61. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#5cb85c), to(#449d44));
+[90m      62. [39m background-image: -webkit-linear-gradient(top, #5cb85c, 0%, #449d44, 100%);
+[90m      63. [39m background-image: -moz-linear-gradient(top, #5cb85c 0%, #449d44 100%);
+[90m      64. [39m background-image: linear-gradient(to bottom, #5cb85c 0%, #449d44 100%);
+[90m      65. [39m background-repeat: repeat-x;
+[90m      66. [39m border-color: #419641;
+[90m      67. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff449d44', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      61. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#5cb85c), to(#449d44));
+
+[36mNo need to specify units when a value is 0[39m
+[90m      62. [39mbackground-image: -webkit-linear-gradient(top, #5cb85c, 0[35m%[39m, #449d44, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      63. [39mbackground-image: -moz-linear-gradient(top, #5cb85c 0[35m%[39m, #449d44 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      64. [39mbackground-image: linear-gradient(to bottom, #5cb85c 0[35m%[39m, #449d44 100%);
+
+[36mElement selectors should not be overqualified[39m
+[90m      70. [39m.[35mbtn-success[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-warning"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m      75. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f0ad4e), to(#ec971f));
+[90m      76. [39m background-image: -webkit-linear-gradient(top, #f0ad4e, 0%, #ec971f, 100%);
+[90m      77. [39m background-image: -moz-linear-gradient(top, #f0ad4e 0%, #ec971f 100%);
+[90m      78. [39m background-image: linear-gradient(to bottom, #f0ad4e 0%, #ec971f 100%);
+[90m      79. [39m background-repeat: repeat-x;
+[90m      80. [39m border-color: #eb9316;
+[90m      81. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffec971f', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      75. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#f0ad4e), to(#ec971f));
+
+[36mNo need to specify units when a value is 0[39m
+[90m      76. [39mbackground-image: -webkit-linear-gradient(top, #f0ad4e, 0[35m%[39m, #ec971f, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      77. [39mbackground-image: -moz-linear-gradient(top, #f0ad4e 0[35m%[39m, #ec971f 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      78. [39mbackground-image: linear-gradient(to bottom, #f0ad4e 0[35m%[39m, #ec971f 100%);
+
+[36mElement selectors should not be overqualified[39m
+[90m      84. [39m.[35mbtn-warning[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-danger"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m      89. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d9534f), to(#c9302c));
+[90m      90. [39m background-image: -webkit-linear-gradient(top, #d9534f, 0%, #c9302c, 100%);
+[90m      91. [39m background-image: -moz-linear-gradient(top, #d9534f 0%, #c9302c 100%);
+[90m      92. [39m background-image: linear-gradient(to bottom, #d9534f 0%, #c9302c 100%);
+[90m      93. [39m background-repeat: repeat-x;
+[90m      94. [39m border-color: #c12e2a;
+[90m      95. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc9302c', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      89. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#d9534f), to(#c9302c));
+
+[36mNo need to specify units when a value is 0[39m
+[90m      90. [39mbackground-image: -webkit-linear-gradient(top, #d9534f, 0[35m%[39m, #c9302c, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      91. [39mbackground-image: -moz-linear-gradient(top, #d9534f 0[35m%[39m, #c9302c 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m      92. [39mbackground-image: linear-gradient(to bottom, #d9534f 0[35m%[39m, #c9302c 100%);
+
+[36mElement selectors should not be overqualified[39m
+[90m      98. [39m.[35mbtn-danger[39m.active
+
+[36mIncorrect property order for rule[35m ".btn-info"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     103. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#5bc0de), to(#31b0d5));
+[90m     104. [39m background-image: -webkit-linear-gradient(top, #5bc0de, 0%, #31b0d5, 100%);
+[90m     105. [39m background-image: -moz-linear-gradient(top, #5bc0de 0%, #31b0d5 100%);
+[90m     106. [39m background-image: linear-gradient(to bottom, #5bc0de 0%, #31b0d5 100%);
+[90m     107. [39m background-repeat: repeat-x;
+[90m     108. [39m border-color: #2aabd2;
+[90m     109. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bc0de', endColorstr='#ff31b0d5', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     103. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#5bc0de), to(#31b0d5));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     104. [39mbackground-image: -webkit-linear-gradient(top, #5bc0de, 0[35m%[39m, #31b0d5, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     105. [39mbackground-image: -moz-linear-gradient(top, #5bc0de 0[35m%[39m, #31b0d5 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     106. [39mbackground-image: linear-gradient(to bottom, #5bc0de 0[35m%[39m, #31b0d5 100%);
+
+[36mElement selectors should not be overqualified[39m
+[90m     112. [39m.[35mbtn-info[39m.active
+
+[36mIncorrect property order for rule[35m ".dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus, .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     126. [39m background-color: #357ebd;
+[90m     127. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#357ebd));
+[90m     128. [39m background-image: -webkit-linear-gradient(top, #428bca, 0%, #357ebd, 100%);
+[90m     129. [39m background-image: -moz-linear-gradient(top, #428bca 0%, #357ebd 100%);
+[90m     130. [39m background-image: linear-gradient(to bottom, #428bca 0%, #357ebd 100%);
+[90m     131. [39m background-repeat: repeat-x;
+[90m     132. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff357ebd', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     126. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#428bca), to(#357ebd));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     127. [39mbackground-image: -webkit-linear-gradient(top, #428bca, 0[35m%[39m, #357ebd, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     128. [39mbackground-image: -moz-linear-gradient(top, #428bca 0[35m%[39m, #357ebd 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     129. [39mbackground-image: linear-gradient(to bottom, #428bca 0[35m%[39m, #357ebd 100%);
+
+[36mIncorrect property order for rule[35m ".navbar"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     135. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffffff), to(#f8f8f8));
+[90m     136. [39m background-image: -webkit-linear-gradient(top, #ffffff, 0%, #f8f8f8, 100%);
+[90m     137. [39m background-image: -moz-linear-gradient(top, #ffffff 0%, #f8f8f8 100%);
+[90m     138. [39m background-image: linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+[90m     139. [39m background-repeat: repeat-x;
+[90m     140. [39m border-radius: 4px;
+[90m     141. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+[90m     142. [39m -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+[90m     143. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     135. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#ffffff), to(#f8f8f8));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     136. [39mbackground-image: -webkit-linear-gradient(top, #ffffff, 0[35m%[39m, #f8f8f8, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     137. [39mbackground-image: -moz-linear-gradient(top, #ffffff 0[35m%[39m, #f8f8f8 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     138. [39mbackground-image: linear-gradient(to bottom, #ffffff 0[35m%[39m, #f8f8f8 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     153. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#3c3c3c), to(#222222));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     154. [39mbackground-image: -webkit-linear-gradient(top, #3c3c3c, 0[35m%[39m, #222222, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     155. [39mbackground-image: -moz-linear-gradient(top, #3c3c3c 0[35m%[39m, #222222 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     156. [39mbackground-image: linear-gradient(to bottom, #3c3c3c 0[35m%[39m, #222222 100%);
+
+[36mIncorrect property order for rule[35m ".alert-success"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     178. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#dff0d8), to(#c8e5bc));
+[90m     179. [39m background-image: -webkit-linear-gradient(top, #dff0d8, 0%, #c8e5bc, 100%);
+[90m     180. [39m background-image: -moz-linear-gradient(top, #dff0d8 0%, #c8e5bc 100%);
+[90m     181. [39m background-image: linear-gradient(to bottom, #dff0d8 0%, #c8e5bc 100%);
+[90m     182. [39m background-repeat: repeat-x;
+[90m     183. [39m border-color: #b2dba1;
+[90m     184. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdff0d8', endColorstr='#ffc8e5bc', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     178. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#dff0d8), to(#c8e5bc));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     179. [39mbackground-image: -webkit-linear-gradient(top, #dff0d8, 0[35m%[39m, #c8e5bc, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     180. [39mbackground-image: -moz-linear-gradient(top, #dff0d8 0[35m%[39m, #c8e5bc 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     181. [39mbackground-image: linear-gradient(to bottom, #dff0d8 0[35m%[39m, #c8e5bc 100%);
+
+[36mIncorrect property order for rule[35m ".alert-info"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     187. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#d9edf7), to(#b9def0));
+[90m     188. [39m background-image: -webkit-linear-gradient(top, #d9edf7, 0%, #b9def0, 100%);
+[90m     189. [39m background-image: -moz-linear-gradient(top, #d9edf7 0%, #b9def0 100%);
+[90m     190. [39m background-image: linear-gradient(to bottom, #d9edf7 0%, #b9def0 100%);
+[90m     191. [39m background-repeat: repeat-x;
+[90m     192. [39m border-color: #9acfea;
+[90m     193. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9edf7', endColorstr='#ffb9def0', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     187. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#d9edf7), to(#b9def0));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     188. [39mbackground-image: -webkit-linear-gradient(top, #d9edf7, 0[35m%[39m, #b9def0, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     189. [39mbackground-image: -moz-linear-gradient(top, #d9edf7 0[35m%[39m, #b9def0 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     190. [39mbackground-image: linear-gradient(to bottom, #d9edf7 0[35m%[39m, #b9def0 100%);
+
+[36mIncorrect property order for rule[35m ".alert-warning"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     196. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#fcf8e3), to(#f8efc0));
+[90m     197. [39m background-image: -webkit-linear-gradient(top, #fcf8e3, 0%, #f8efc0, 100%);
+[90m     198. [39m background-image: -moz-linear-gradient(top, #fcf8e3 0%, #f8efc0 100%);
+[90m     199. [39m background-image: linear-gradient(to bottom, #fcf8e3 0%, #f8efc0 100%);
+[90m     200. [39m background-repeat: repeat-x;
+[90m     201. [39m border-color: #f5e79e;
+[90m     202. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fff8efc0', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     196. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#fcf8e3), to(#f8efc0));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     197. [39mbackground-image: -webkit-linear-gradient(top, #fcf8e3, 0[35m%[39m, #f8efc0, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     198. [39mbackground-image: -moz-linear-gradient(top, #fcf8e3 0[35m%[39m, #f8efc0 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     199. [39mbackground-image: linear-gradient(to bottom, #fcf8e3 0[35m%[39m, #f8efc0 100%);
+
+[36mIncorrect property order for rule[35m ".alert-danger"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     205. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#f2dede), to(#e7c3c3));
+[90m     206. [39m background-image: -webkit-linear-gradient(top, #f2dede, 0%, #e7c3c3, 100%);
+[90m     207. [39m background-image: -moz-linear-gradient(top, #f2dede 0%, #e7c3c3 100%);
+[90m     208. [39m background-image: linear-gradient(to bottom, #f2dede 0%, #e7c3c3 100%);
+[90m     209. [39m background-repeat: repeat-x;
+[90m     210. [39m border-color: #dca7a7;
+[90m     211. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2dede', endColorstr='#ffe7c3c3', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     205. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#f2dede), to(#e7c3c3));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     206. [39mbackground-image: -webkit-linear-gradient(top, #f2dede, 0[35m%[39m, #e7c3c3, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     207. [39mbackground-image: -moz-linear-gradient(top, #f2dede 0[35m%[39m, #e7c3c3 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     208. [39mbackground-image: linear-gradient(to bottom, #f2dede 0[35m%[39m, #e7c3c3 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     214. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#ebebeb), to(#f5f5f5));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     215. [39mbackground-image: -webkit-linear-gradient(top, #ebebeb, 0[35m%[39m, #f5f5f5, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     216. [39mbackground-image: -moz-linear-gradient(top, #ebebeb 0[35m%[39m, #f5f5f5 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     217. [39mbackground-image: linear-gradient(to bottom, #ebebeb 0[35m%[39m, #f5f5f5 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     222. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#428bca), to(#3071a9));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     223. [39mbackground-image: -webkit-linear-gradient(top, #428bca, 0[35m%[39m, #3071a9, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     224. [39mbackground-image: -moz-linear-gradient(top, #428bca 0[35m%[39m, #3071a9 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     225. [39mbackground-image: linear-gradient(to bottom, #428bca 0[35m%[39m, #3071a9 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     230. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#5cb85c), to(#449d44));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     231. [39mbackground-image: -webkit-linear-gradient(top, #5cb85c, 0[35m%[39m, #449d44, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     232. [39mbackground-image: -moz-linear-gradient(top, #5cb85c 0[35m%[39m, #449d44 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     233. [39mbackground-image: linear-gradient(to bottom, #5cb85c 0[35m%[39m, #449d44 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     238. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#5bc0de), to(#31b0d5));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     239. [39mbackground-image: -webkit-linear-gradient(top, #5bc0de, 0[35m%[39m, #31b0d5, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     240. [39mbackground-image: -moz-linear-gradient(top, #5bc0de 0[35m%[39m, #31b0d5 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     241. [39mbackground-image: linear-gradient(to bottom, #5bc0de 0[35m%[39m, #31b0d5 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     246. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#f0ad4e), to(#ec971f));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     247. [39mbackground-image: -webkit-linear-gradient(top, #f0ad4e, 0[35m%[39m, #ec971f, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     248. [39mbackground-image: -moz-linear-gradient(top, #f0ad4e 0[35m%[39m, #ec971f 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     249. [39mbackground-image: linear-gradient(to bottom, #f0ad4e 0[35m%[39m, #ec971f 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     254. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#d9534f), to(#c9302c));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     255. [39mbackground-image: -webkit-linear-gradient(top, #d9534f, 0[35m%[39m, #c9302c, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     256. [39mbackground-image: -moz-linear-gradient(top, #d9534f 0[35m%[39m, #c9302c 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     257. [39mbackground-image: linear-gradient(to bottom, #d9534f 0[35m%[39m, #c9302c 100%);
+
+[36mElement selectors should not be overqualified[39m
+[90m     266. [39m.[35mlist-group-item[39m.active
+
+[36mElement selectors should not be overqualified[39m
+[90m     267. [39m.[35mlist-group-item[39m.active:hover
+
+[36mElement selectors should not be overqualified[39m
+[90m     268. [39m.[35mlist-group-item[39m.active:focus
+
+[36mIncorrect property order for rule[35m ".list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     269. [39m text-shadow: 0 -1px 0 #3071a9;
+[90m     270. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#428bca), to(#3278b3));
+[90m     271. [39m background-image: -webkit-linear-gradient(top, #428bca, 0%, #3278b3, 100%);
+[90m     272. [39m background-image: -moz-linear-gradient(top, #428bca 0%, #3278b3 100%);
+[90m     273. [39m background-image: linear-gradient(to bottom, #428bca 0%, #3278b3 100%);
+[90m     274. [39m background-repeat: repeat-x;
+[90m     275. [39m border-color: #3278b3;
+[90m     276. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff428bca', endColorstr='#ff3278b3', GradientType=0);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     270. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#428bca), to(#3278b3));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     271. [39mbackground-image: -webkit-linear-gradient(top, #428bca, 0[35m%[39m, #3278b3, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     272. [39mbackground-image: -moz-linear-gradient(top, #428bca 0[35m%[39m, #3278b3 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     273. [39mbackground-image: linear-gradient(to bottom, #428bca 0[35m%[39m, #3278b3 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     283. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#f5f5f5), to(#e8e8e8));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     284. [39mbackground-image: -webkit-linear-gradient(top, #f5f5f5, 0[35m%[39m, #e8e8e8, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     285. [39mbackground-image: -moz-linear-gradient(top, #f5f5f5 0[35m%[39m, #e8e8e8 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     286. [39mbackground-image: linear-gradient(to bottom, #f5f5f5 0[35m%[39m, #e8e8e8 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     291. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#428bca), to(#357ebd));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     292. [39mbackground-image: -webkit-linear-gradient(top, #428bca, 0[35m%[39m, #357ebd, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     293. [39mbackground-image: -moz-linear-gradient(top, #428bca 0[35m%[39m, #357ebd 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     294. [39mbackground-image: linear-gradient(to bottom, #428bca 0[35m%[39m, #357ebd 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     299. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#dff0d8), to(#d0e9c6));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     300. [39mbackground-image: -webkit-linear-gradient(top, #dff0d8, 0[35m%[39m, #d0e9c6, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     301. [39mbackground-image: -moz-linear-gradient(top, #dff0d8 0[35m%[39m, #d0e9c6 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     302. [39mbackground-image: linear-gradient(to bottom, #dff0d8 0[35m%[39m, #d0e9c6 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     307. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#d9edf7), to(#c4e3f3));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     308. [39mbackground-image: -webkit-linear-gradient(top, #d9edf7, 0[35m%[39m, #c4e3f3, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     309. [39mbackground-image: -moz-linear-gradient(top, #d9edf7 0[35m%[39m, #c4e3f3 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     310. [39mbackground-image: linear-gradient(to bottom, #d9edf7 0[35m%[39m, #c4e3f3 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     315. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#fcf8e3), to(#faf2cc));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     316. [39mbackground-image: -webkit-linear-gradient(top, #fcf8e3, 0[35m%[39m, #faf2cc, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     317. [39mbackground-image: -moz-linear-gradient(top, #fcf8e3 0[35m%[39m, #faf2cc 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     318. [39mbackground-image: linear-gradient(to bottom, #fcf8e3 0[35m%[39m, #faf2cc 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     323. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#f2dede), to(#ebcccc));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     324. [39mbackground-image: -webkit-linear-gradient(top, #f2dede, 0[35m%[39m, #ebcccc, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     325. [39mbackground-image: -moz-linear-gradient(top, #f2dede 0[35m%[39m, #ebcccc 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     326. [39mbackground-image: linear-gradient(to bottom, #f2dede 0[35m%[39m, #ebcccc 100%);
+
+[36mIncorrect property order for rule[35m ".well"[39m[90m
+
+  Correct order below:
+[39m[39m
+[90m     331. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#e8e8e8), to(#f5f5f5));
+[90m     332. [39m background-image: -webkit-linear-gradient(top, #e8e8e8, 0%, #f5f5f5, 100%);
+[90m     333. [39m background-image: -moz-linear-gradient(top, #e8e8e8 0%, #f5f5f5 100%);
+[90m     334. [39m background-image: linear-gradient(to bottom, #e8e8e8 0%, #f5f5f5 100%);
+[90m     335. [39m background-repeat: repeat-x;
+[90m     336. [39m border-color: #dcdcdc;
+[90m     337. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);
+[90m     338. [39m -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+[90m     339. [39m box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     331. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#e8e8e8), to(#f5f5f5));
+
+[36mNo need to specify units when a value is 0[39m
+[90m     332. [39mbackground-image: -webkit-linear-gradient(top, #e8e8e8, 0[35m%[39m, #f5f5f5, 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     333. [39mbackground-image: -moz-linear-gradient(top, #e8e8e8 0[35m%[39m, #f5f5f5 100%);
+
+[36mNo need to specify units when a value is 0[39m
+[90m     334. [39mbackground-image: linear-gradient(to bottom, #e8e8e8 0[35m%[39m, #f5f5f5 100%);
+

@@ -1,15 +1,41 @@
 {% extends "scrclubSCRClubBundle:default:index.html.twig" %}
 
 {% block body %}
-	
-	<div class="container">
-	    <div class="span6 white main-text">
-	
-	        <p>{{ node.description | raw }}</p>
-	
-	    </div>
+
+    <div class="container">
+
+
+        <div class="row home-grid">
+            <div class="col-xs-12 col-md-6">
+
+                <div class="project-name">{{node.name | raw }}</div>
+                {{node.description | raw }}
+
+            </div>
+            <div class=" col-xs-12 col-md-6">
+
+                {%  for mediaNode in node.mediaNodes %}
+
+                    {% if mediaNode.media.getType() == "image" %}
+                        <img  alt="{{ mediaNode.media.name }}" src="{{asset(mediaNode.media.getWebPath() )}}"  style="width: 100%; padding-bottom: 25px">
+
+                    {% else %}
+
+                        {{ getEmbed(mediaNode.media, "100%", 500)}}
+
+                    {% endif %}
+
+
+
+                {% endfor %}
+
+            </div>
+        </div>
+
+
     </div>
 
+    </div>
 
 
     <script>
