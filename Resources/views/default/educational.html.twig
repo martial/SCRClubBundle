@@ -33,7 +33,7 @@
                 <div class=" col-xs-12 col-md-3">
 
 
-                    <div id="carousel-example-generic" class="carousel">
+                    <div id="carousel-{{ node.id }}" class="carousel">
 
 
                         <div class="carousel-inner">
@@ -50,11 +50,11 @@
                         </div>
 
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <a class="left carousel-control" href="#carousel-{{ node.id }}" data-slide="prev">
                             <img class="icon-prev" src="{{ asset('bundles/scrclubscrclub/images/prev.png') }}"/>
 
                         </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <a class="right carousel-control" href="#carousel-{{ node.id }}" data-slide="next">
                             <img class="icon-next" src="{{ asset('bundles/scrclubscrclub/images/next.png') }}"/>
                         </a>
                     </div>
