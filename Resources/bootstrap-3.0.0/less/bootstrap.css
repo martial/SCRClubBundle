@@ -2218,29 +2218,29 @@ FAILURES: [35m425 failures[39m
 
   Correct order below:
 [39m[39m
-[90m    5950. [39m border-bottom: 1px solid #000000;
-[90m    5951. [39m border-bottom-style: solid;
-[90m    5952. [39m border-bottom-width: 1px;
+[90m    5953. [39m border-bottom: 1px solid #000000;
+[90m    5954. [39m border-bottom-style: solid;
+[90m    5955. [39m border-bottom-width: 1px;
 
 [36mIncorrect property order for rule[35m ".project-name"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5958. [39m margin-bottom: 10px;
-[90m    5959. [39m font-family: "AkzidenzBQCondensed";
-[90m    5960. [39m font-size: 24px;
+[90m    5961. [39m margin-bottom: 10px;
+[90m    5962. [39m font-family: "AkzidenzBQCondensed";
+[90m    5963. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".white-block"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5963. [39m left: 4px;
-[90m    5964. [39m width: 100%;
-[90m    5965. [39m padding-top: 4px;
-[90m    5966. [39m padding-bottom: 2px;
-[90m    5967. [39m padding-left: 6px;
-[90m    5968. [39m margin-bottom: 8px!important;
-[90m    5969. [39m font-size: 12px;
-[90m    5970. [39m color: #000;
-[90m    5971. [39m background-color: #FFF;
+[90m    5966. [39m left: 4px;
+[90m    5967. [39m width: 100%;
+[90m    5968. [39m padding-top: 4px;
+[90m    5969. [39m padding-bottom: 2px;
+[90m    5970. [39m padding-left: 6px;
+[90m    5971. [39m margin-bottom: 8px!important;
+[90m    5972. [39m font-size: 12px;
+[90m    5973. [39m color: #000;
+[90m    5974. [39m background-color: #FFF;
 

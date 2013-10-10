@@ -6848,6 +6848,10 @@ td.visible-print {
   border-bottom-width: 1px;
 }
 
+.padding-20 {
+  padding-bottom: 20px;
+}
+
 .home-grid {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -6892,6 +6896,11 @@ td.visible-print {
     float: right !important;
     text-align: right;
   }
+  .nav-menu-container {
+    position: absolute;
+    top: -40px;
+    right: 20px;
+  }
   .top-menu {
     padding-top: 10px;
     margin-top: 10px;
@@ -6903,7 +6912,7 @@ td.visible-print {
     border-top: solid;
   }
   .container-fixed-menu {
-    margin-top: 250px;
+    margin-top: 260px;
   }
   .row-menu {
     padding-bottom: 0;

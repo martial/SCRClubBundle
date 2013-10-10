@@ -51,9 +51,7 @@
             context: document.body
         }).done(function(data) {
 
-                    console.log(data)
             var headlines = data.split(",");
-            console.log(headlines)
             updateHeadline(headlines)
 
         });
