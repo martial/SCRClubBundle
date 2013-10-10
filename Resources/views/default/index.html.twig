@@ -17,6 +17,7 @@
     <![endif]-->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="{{ asset('bundles/scrclubscrclub/js/bootstrap/bootstrap.min.js') }}"></script>
     <script src="{{ asset('bundles/scrclubscrclub/js/jail.min.js') }}"></script>
     <script src="{{ asset('bundles/scrclubscrclub/js/backstretch.min.js') }}"></script>
     <script src="{{ asset('bundles/scrclubscrclub/js/jquery.shuffleLetters.js') }}"></script>
@@ -89,42 +90,6 @@
 
     }
 
-    {% if prev %}
-
-    $("#prev").hover (function (){
-
-        $("#nav-name").shuffleLetters({
-            "text": "{{ prev.name }}"
-        });
-
-
-    }, function () {
-
-        $("#nav-name").shuffleLetters({
-            "text": " "
-        });
-    })
-
-    {% endif %}
-
-
-    {% if next %}
-
-    $("#next").hover (function (){
-
-        $("#nav-name").shuffleLetters({
-            "text": "{{ next.name }}"
-        });
-
-
-    }, function () {
-
-        $("#nav-name").shuffleLetters({
-            "text": " "
-        });
-    })
-
-    {% endif %}
 
 
 

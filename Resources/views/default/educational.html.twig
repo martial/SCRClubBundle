@@ -1,0 +1,93 @@
+{% extends "scrclubSCRClubBundle:default:index.html.twig" %}
+
+{% set menuType = "2-1-1" %}
+
+{% block body %}
+
+
+    <div class="container">
+
+
+
+
+
+        {% for node in node.children %}
+
+        <div class="row home-grid">
+                <div class="col-xs-12 col-md-6">
+
+                    <div class="project-name">{{node.name | raw }}</div>
+                    {{node.header | raw }}
+
+                </div>
+
+            <div class=" col-xs-12 col-md-3">
+
+
+                <div class="project-name">Info</div>
+                {{node.description | raw }}
+
+
+            </div>
+
+                <div class=" col-xs-12 col-md-3">
+
+
+                    <div id="carousel-example-generic" class="carousel">
+
+
+                        <div class="carousel-inner">
+                            {%  for mediaNode in node.mediaNodes %}
+                            {% if mediaNode.media.getType() == "image" %}
+
+                                <div class="item {% if loop.first %}active{% endif %}">
+                                    <img src="{{asset(mediaNode.media.getWebPath() | apply_filter("scr_carousel"))}}" alt="{{ mediaNode.media.name }}">
+                                    <div class="carousel-caption"></div>
+                                </div>
+                            {% else %}
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                            <img class="icon-prev" src="{{ asset('bundles/scrclubscrclub/images/prev.png') }}"/>
+
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                            <img class="icon-next" src="{{ asset('bundles/scrclubscrclub/images/next.png') }}"/>
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+        </div>
+
+            {% include 'scrclubSCRClubBundle:default:delimiters.html.twig' with {'type': menuType} %}
+
+
+        {% endfor %}
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+    <script>
+        $(function () {
+
+            //$.backstretch("https://dl.dropboxusercontent.com/u/817108/screenclub/about.jpg");
+
+        })
+
+    </script>
+
+
+{% endblock %}
+

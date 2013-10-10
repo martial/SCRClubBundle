@@ -3,7 +3,7 @@ Analyzing the following files: [90mbootstrap.less
 [39m
 FILE: [36mbootstrap.less[39m
 STATUS: [35mBusted[39m
-FAILURES: [35m426 failures[39m
+FAILURES: [35m425 failures[39m
 
 [36mIncorrect property order for rule[35m "h1"[39m[90m
 
@@ -2056,194 +2056,191 @@ FAILURES: [35m426 failures[39m
 
   Correct order below:
 [39m[39m
-[90m    5304. [39m position: absolute;
-[90m    5305. [39m bottom: 10px;
-[90m    5306. [39m left: 50%;
-[90m    5307. [39m z-index: 15;
-[90m    5308. [39m width: 60%;
-[90m    5309. [39m padding-left: 0;
-[90m    5310. [39m margin-left: -30%;
-[90m    5311. [39m text-align: center;
-[90m    5312. [39m list-style: none;
+[90m    5302. [39m position: absolute;
+[90m    5303. [39m bottom: 10px;
+[90m    5304. [39m left: 50%;
+[90m    5305. [39m z-index: 15;
+[90m    5306. [39m width: 60%;
+[90m    5307. [39m padding-left: 0;
+[90m    5308. [39m margin-left: -30%;
+[90m    5309. [39m text-align: center;
+[90m    5310. [39m list-style: none;
 
 [36mIncorrect property order for rule[35m ".carousel-indicators li"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5315. [39m display: inline-block;
-[90m    5316. [39m width: 10px;
-[90m    5317. [39m height: 10px;
-[90m    5318. [39m margin: 1px;
-[90m    5319. [39m text-indent: -999px;
-[90m    5320. [39m cursor: pointer;
-[90m    5321. [39m border: 1px solid #ffffff;
-[90m    5322. [39m border-radius: 10px;
+[90m    5313. [39m display: inline-block;
+[90m    5314. [39m width: 10px;
+[90m    5315. [39m height: 10px;
+[90m    5316. [39m margin: 1px;
+[90m    5317. [39m text-indent: -999px;
+[90m    5318. [39m cursor: pointer;
+[90m    5319. [39m border: 1px solid #ffffff;
+[90m    5320. [39m border-radius: 10px;
 
 [36mIncorrect property order for rule[35m ".carousel-indicators .active"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5325. [39m width: 12px;
-[90m    5326. [39m height: 12px;
-[90m    5327. [39m margin: 0;
-[90m    5328. [39m background-color: #ffffff;
+[90m    5323. [39m width: 12px;
+[90m    5324. [39m height: 12px;
+[90m    5325. [39m margin: 0;
+[90m    5326. [39m background-color: #ffffff;
 
 [36mIncorrect property order for rule[35m ".carousel-caption"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5331. [39m position: absolute;
-[90m    5332. [39m right: 15%;
-[90m    5333. [39m bottom: 20px;
-[90m    5334. [39m left: 15%;
-[90m    5335. [39m z-index: 10;
-[90m    5336. [39m padding-top: 20px;
-[90m    5337. [39m padding-bottom: 20px;
-[90m    5338. [39m color: #ffffff;
-[90m    5339. [39m text-align: center;
-[90m    5340. [39m text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+[90m    5329. [39m position: absolute;
+[90m    5330. [39m right: 15%;
+[90m    5331. [39m bottom: 20px;
+[90m    5332. [39m left: 15%;
+[90m    5333. [39m z-index: 10;
+[90m    5334. [39m padding-top: 20px;
+[90m    5335. [39m padding-bottom: 20px;
+[90m    5336. [39m color: #ffffff;
+[90m    5337. [39m text-align: center;
+[90m    5338. [39m text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 
 [36mIncorrect property order for rule[35m ".clearfix:before, .clearfix:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5365. [39m display: table;
-[90m    5366. [39m content: " ";
+[90m    5361. [39m display: table;
+[90m    5362. [39m content: " ";
 
 [36mElement selectors should not be overqualified[39m
-[90m    5415. [39m[35mtr[39m.visible-xs
+[90m    5411. [39m[35mtr[39m.visible-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5418. [39m[35mth[39m.visible-xs
+[90m    5414. [39m[35mth[39m.visible-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5419. [39m[35mtd[39m.visible-xs
+[90m    5415. [39m[35mtd[39m.visible-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5473. [39m[35mtr[39m.visible-sm
+[90m    5469. [39m[35mtr[39m.visible-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5476. [39m[35mth[39m.visible-sm
+[90m    5472. [39m[35mth[39m.visible-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5477. [39m[35mtd[39m.visible-sm
+[90m    5473. [39m[35mtd[39m.visible-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5531. [39m[35mtr[39m.visible-md
+[90m    5527. [39m[35mtr[39m.visible-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5534. [39m[35mth[39m.visible-md
+[90m    5530. [39m[35mth[39m.visible-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5535. [39m[35mtd[39m.visible-md
+[90m    5531. [39m[35mtd[39m.visible-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5589. [39m[35mtr[39m.visible-lg
+[90m    5585. [39m[35mtr[39m.visible-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5592. [39m[35mth[39m.visible-lg
+[90m    5588. [39m[35mth[39m.visible-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5593. [39m[35mtd[39m.visible-lg
+[90m    5589. [39m[35mtd[39m.visible-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5647. [39m[35mtr[39m.hidden-xs
+[90m    5643. [39m[35mtr[39m.hidden-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5650. [39m[35mth[39m.hidden-xs
+[90m    5646. [39m[35mth[39m.hidden-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5651. [39m[35mtd[39m.hidden-xs
+[90m    5647. [39m[35mtd[39m.hidden-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5705. [39m[35mtr[39m.hidden-sm
+[90m    5701. [39m[35mtr[39m.hidden-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5708. [39m[35mth[39m.hidden-sm
+[90m    5704. [39m[35mth[39m.hidden-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5709. [39m[35mtd[39m.hidden-sm
+[90m    5705. [39m[35mtd[39m.hidden-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5763. [39m[35mtr[39m.hidden-md
+[90m    5759. [39m[35mtr[39m.hidden-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5766. [39m[35mth[39m.hidden-md
+[90m    5762. [39m[35mth[39m.hidden-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5767. [39m[35mtd[39m.hidden-md
+[90m    5763. [39m[35mtd[39m.hidden-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5821. [39m[35mtr[39m.hidden-lg
+[90m    5817. [39m[35mtr[39m.hidden-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5824. [39m[35mth[39m.hidden-lg
+[90m    5820. [39m[35mth[39m.hidden-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5825. [39m[35mtd[39m.hidden-lg
+[90m    5821. [39m[35mtd[39m.hidden-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5879. [39m[35mtr[39m.visible-print
+[90m    5875. [39m[35mtr[39m.visible-print
 
 [36mElement selectors should not be overqualified[39m
-[90m    5882. [39m[35mth[39m.visible-print
+[90m    5878. [39m[35mth[39m.visible-print
 
 [36mElement selectors should not be overqualified[39m
-[90m    5883. [39m[35mtd[39m.visible-print
+[90m    5879. [39m[35mtd[39m.visible-print
 
 [36mIncorrect property order for rule[35m ".logo-header"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5933. [39m margin-top: -4px;
-[90m    5934. [39m font-family: "AkzidenzBQCondensed";
-[90m    5935. [39m font-size: 32px;
+[90m    5929. [39m margin-top: -4px;
+[90m    5930. [39m font-family: "AkzidenzBQCondensed";
+[90m    5931. [39m font-size: 32px;
 
 [36mIncorrect property order for rule[35m ".logo-header p"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5938. [39m margin-top: -10px;
-[90m    5939. [39m font-size: 24px;
-
-[36mNo need to specify units when a value is 0[39m
-[90m    5942. [39mpadding-bottom: 0[35mpx[39m;
+[90m    5934. [39m margin-top: -10px;
+[90m    5935. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".block-delimiter"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5945. [39m border-bottom: 1px solid #000000;
-[90m    5946. [39m border-bottom-style: solid;
-[90m    5947. [39m border-bottom-width: 1px;
+[90m    5941. [39m border-bottom: 1px solid #000000;
+[90m    5942. [39m border-bottom-style: solid;
+[90m    5943. [39m border-bottom-width: 1px;
 
 [36mIncorrect property order for rule[35m ".home-grid .img-block .img-content"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5953. [39m border-bottom: 1px solid #000000;
-[90m    5954. [39m border-bottom-style: solid;
-[90m    5955. [39m border-bottom-width: 1px;
+[90m    5950. [39m border-bottom: 1px solid #000000;
+[90m    5951. [39m border-bottom-style: solid;
+[90m    5952. [39m border-bottom-width: 1px;
 
 [36mIncorrect property order for rule[35m ".project-name"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5961. [39m margin-bottom: 10px;
-[90m    5962. [39m font-family: "AkzidenzBQCondensed";
-[90m    5963. [39m font-size: 24px;
+[90m    5958. [39m margin-bottom: 10px;
+[90m    5959. [39m font-family: "AkzidenzBQCondensed";
+[90m    5960. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".white-block"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5966. [39m left: 4px;
-[90m    5967. [39m width: 100%;
-[90m    5968. [39m padding-top: 4px;
-[90m    5969. [39m padding-bottom: 2px;
-[90m    5970. [39m padding-left: 6px;
-[90m    5971. [39m margin-bottom: 8px!important;
-[90m    5972. [39m font-size: 12px;
-[90m    5973. [39m color: #000;
-[90m    5974. [39m background-color: #FFF;
+[90m    5963. [39m left: 4px;
+[90m    5964. [39m width: 100%;
+[90m    5965. [39m padding-top: 4px;
+[90m    5966. [39m padding-bottom: 2px;
+[90m    5967. [39m padding-left: 6px;
+[90m    5968. [39m margin-bottom: 8px!important;
+[90m    5969. [39m font-size: 12px;
+[90m    5970. [39m color: #000;
+[90m    5971. [39m background-color: #FFF;
 

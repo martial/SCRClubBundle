@@ -6109,8 +6109,6 @@ body.modal-open,
 
 .carousel-control .icon-prev,
 .carousel-control .icon-next {
-  width: 20px;
-  height: 20px;
   margin-top: -10px;
   margin-left: -10px;
   font-family: serif;
@@ -6174,8 +6172,6 @@ body.modal-open,
 @media screen and (min-width: 768px) {
   .carousel-control .icon-prev,
   .carousel-control .icon-next {
-    width: 30px;
-    height: 30px;
     margin-top: -15px;
     margin-left: -15px;
     font-size: 30px;
@@ -6843,7 +6839,7 @@ td.visible-print {
 }
 
 .row-menu {
-  padding-bottom: 0;
+  padding-bottom: 10px;
 }
 
 .block-delimiter {
@@ -6854,6 +6850,7 @@ td.visible-print {
 
 .home-grid {
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .home-grid .img-block .img-content {
