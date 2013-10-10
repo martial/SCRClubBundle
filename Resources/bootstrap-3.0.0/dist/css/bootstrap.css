@@ -6843,7 +6843,7 @@ td.visible-print {
 }
 
 .row-menu {
-  padding-bottom: 20px;
+  padding-bottom: 0;
 }
 
 .block-delimiter {
@@ -6884,6 +6884,10 @@ td.visible-print {
   background-color: #FFF;
 }
 
+.nav-right {
+  height: 10px;
+}
+
 /* Small devices (tablets, 768px and up) */
 
 @media (max-width: 992px) {
@@ -6906,6 +6910,9 @@ td.visible-print {
   }
   .row-menu {
     padding-bottom: 0;
+  }
+  .nav-right {
+    visibility: hidden;
   }
 }
 

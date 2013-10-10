@@ -64,8 +64,6 @@
 
         var index = parseInt(Math.random() * (headlines.length -1));
 
-        console.log(headlines.length)
-        console.log(index);
 
         $("#shuffle").shuffleLetters({
             "text": headlines[index]
@@ -80,23 +78,53 @@
     function updateMenu () {
 
         var scrolled = win.scrollTop();
-        //console.log(scrolled)
-
-
 
             var max = 20;
             var ratio = max * scrolled / 40;
             ratio = (max - ratio);
-
             var value = ( ratio < -10 ) ? -10 : ratio;
-
-
-
             $(".page-header").css('margin-top', value+'px')
 
 
 
     }
+
+    {% if prev %}
+
+    $("#prev").hover (function (){
+
+        $("#nav-name").shuffleLetters({
+            "text": "{{ prev.name }}"
+        });
+
+
+    }, function () {
+
+        $("#nav-name").shuffleLetters({
+            "text": " "
+        });
+    })
+
+    {% endif %}
+
+
+    {% if next %}
+
+    $("#next").hover (function (){
+
+        $("#nav-name").shuffleLetters({
+            "text": "{{ next.name }}"
+        });
+
+
+    }, function () {
+
+        $("#nav-name").shuffleLetters({
+            "text": " "
+        });
+    })
+
+    {% endif %}
 
 
 

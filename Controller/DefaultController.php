@@ -97,6 +97,22 @@ class DefaultController extends SiteController
             $config = $configs[0];
         }
 
+        // GET NEW AND PREV
+
+        //$prev = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->findOneById($node->getLft());
+        //$next = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->findOneById($node->getRgt());
+
+        $prev = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->getPrevSiblings($node);
+        $next = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->getNextSiblings($node);
+
+        if(count($prev) > 0 )
+            $prev = $prev[0];
+
+        if(count($next) > 0 )
+            $next = $next[0];
+
+
+
 
         return $this->render('scrclubSCRClubBundle:default:'.$template->getUrl(), array(
             'nodes' => $nodes,
@@ -104,7 +120,9 @@ class DefaultController extends SiteController
             'analyticsEmbed' => $googleAnalyticsEmbed,
             'relateds' => $categoryRelateds,
             'langs' => $langs,
-            'config' => $config
+            'config' => $config,
+            'prev' => $prev,
+            'next'=> $next
 
         ));
 

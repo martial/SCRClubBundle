@@ -3,7 +3,7 @@ Analyzing the following files: [90mbootstrap.less
 [39m
 FILE: [36mbootstrap.less[39m
 STATUS: [35mBusted[39m
-FAILURES: [35m425 failures[39m
+FAILURES: [35m426 failures[39m
 
 [36mIncorrect property order for rule[35m "h1"[39m[90m
 
@@ -2205,6 +2205,9 @@ FAILURES: [35m425 failures[39m
 [39m[39m
 [90m    5938. [39m margin-top: -10px;
 [90m    5939. [39m font-size: 24px;
+
+[36mNo need to specify units when a value is 0[39m
+[90m    5942. [39mpadding-bottom: 0[35mpx[39m;
 
 [36mIncorrect property order for rule[35m ".block-delimiter"[39m[90m
 
