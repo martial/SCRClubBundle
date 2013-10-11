@@ -6877,6 +6877,14 @@ td.visible-print {
   max-width: 100%;
 }
 
+.educ-grid {
+  padding-top: 20px;
+}
+
+.educ-grid img {
+  max-width: 100%;
+}
+
 .about-grid {
   padding-top: 0;
   padding-bottom: 20px;
