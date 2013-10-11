@@ -6890,7 +6890,7 @@ td.visible-print {
   padding-bottom: 20px;
 }
 
-.about-grid .text-bloc {
+.about-grid .text-block {
   padding-bottom: 20px;
 }
 
@@ -6933,7 +6933,7 @@ td.visible-print {
   .about-grid {
     padding-top: 30px;
   }
-  .about-grid .text-bloc {
+  .about-grid .text-block {
     padding-bottom: 0;
   }
   .nav-section-menu {
