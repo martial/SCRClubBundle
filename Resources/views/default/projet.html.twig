@@ -12,6 +12,11 @@
                 <div class="col-xs-12 col-md-3 padding-20">
 
                     <div class="project-name">{{node.name | raw }}</div>
+
+                    {% if node.header is not empty %}
+                    {{node.header | raw }}
+                    <div class="block-delimiter padding-20" style="margin-bottom:20px;"></div>
+                    {% endif %}
                     {{node.description | raw }}
 
                 </div>
