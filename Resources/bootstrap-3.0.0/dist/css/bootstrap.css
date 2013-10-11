@@ -6862,6 +6862,10 @@ td.visible-print {
   padding-bottom: 20px;
 }
 
+.padding-30 {
+  padding-bottom: 30px;
+}
+
 .home-grid {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -6891,7 +6895,7 @@ td.visible-print {
 }
 
 .about-grid .text-block {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 .about-grid img {
