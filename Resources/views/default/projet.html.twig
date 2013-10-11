@@ -19,7 +19,6 @@
 
                     {%  for mediaNode in node.mediaNodes %}
 
-                            {% if loop.index0 > 0  %}
 
                             {% if mediaNode.media.getType() == "image" %}
                                 <img  alt="{{ mediaNode.media.name }}" src="{{asset(mediaNode.media.getWebPath() )}}"  style="width: 100%; padding-bottom: 25px">
@@ -30,7 +29,6 @@
 
                             {% endif %}
 
-                            {% endif %}
 
 
 
