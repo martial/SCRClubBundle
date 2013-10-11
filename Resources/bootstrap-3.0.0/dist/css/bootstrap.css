@@ -6889,13 +6889,13 @@ td.visible-print {
   max-width: 100%;
 }
 
-.about-grid {
-  padding-top: 0;
+.educ-grid .text-block {
   padding-bottom: 20px;
 }
 
-.about-grid .text-block {
-  padding-bottom: 30px;
+.about-grid {
+  padding-top: 0;
+  padding-bottom: 20px;
 }
 
 .about-grid img {
@@ -6938,6 +6938,9 @@ td.visible-print {
     padding-top: 30px;
   }
   .about-grid .text-block {
+    padding-bottom: 0;
+  }
+  .educ-grid .text-block {
     padding-bottom: 0;
   }
   .nav-section-menu {
