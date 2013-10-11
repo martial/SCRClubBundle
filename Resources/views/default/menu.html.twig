@@ -20,8 +20,13 @@
             <div class="nav-section-menu col-xs-12 col-sm-12 col-md-3">
 
                 <ul class="top-menu list-unstyled">
-                {% for node in nodes %}
-                    <li><a href="{{path('page', {'slug': node.slug}) }}">{{node.name}}</a></li>
+                {% for nodeSection in nodes %}
+
+
+
+                    <li {% if nodeSection.id == node.id or nodeSection.id == node.parent.id %}
+                    class="active"
+                    {% endif %}><a href="{{path('page', {'slug': nodeSection.slug}) }}">{{nodeSection.name}}</a></li>
                 {%  endfor %}
                 </ul>
 

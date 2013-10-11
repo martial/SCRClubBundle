@@ -2195,52 +2195,52 @@ FAILURES: [35m425 failures[39m
 
   Correct order below:
 [39m[39m
-[90m    5929. [39m margin-top: -4px;
-[90m    5930. [39m font-family: "AkzidenzBQCondensed";
-[90m    5931. [39m font-size: 32px;
+[90m    5938. [39m margin-top: -4px;
+[90m    5939. [39m font-family: "AkzidenzBQCondensed";
+[90m    5940. [39m font-size: 32px;
 
 [36mIncorrect property order for rule[35m ".logo-header p"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5934. [39m margin-top: -10px;
-[90m    5935. [39m font-size: 24px;
+[90m    5943. [39m margin-top: -10px;
+[90m    5944. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".block-delimiter"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5941. [39m border-bottom: 1px solid #000000;
-[90m    5942. [39m border-bottom-style: solid;
-[90m    5943. [39m border-bottom-width: 1px;
+[90m    5950. [39m border-bottom: 1px solid #000000;
+[90m    5951. [39m border-bottom-style: solid;
+[90m    5952. [39m border-bottom-width: 1px;
 
 [36mIncorrect property order for rule[35m ".home-grid .img-block .img-content"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5953. [39m border-bottom: 1px solid #000000;
-[90m    5954. [39m border-bottom-style: solid;
-[90m    5955. [39m border-bottom-width: 1px;
+[90m    5962. [39m border-bottom: 1px solid #000000;
+[90m    5963. [39m border-bottom-style: solid;
+[90m    5964. [39m border-bottom-width: 1px;
 
 [36mIncorrect property order for rule[35m ".project-name"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5961. [39m margin-bottom: 10px;
-[90m    5962. [39m font-family: "AkzidenzBQCondensed";
-[90m    5963. [39m font-size: 24px;
+[90m    5970. [39m margin-bottom: 10px;
+[90m    5971. [39m font-family: "AkzidenzBQCondensed";
+[90m    5972. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".white-block"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5966. [39m left: 4px;
-[90m    5967. [39m width: 100%;
-[90m    5968. [39m padding-top: 4px;
-[90m    5969. [39m padding-bottom: 2px;
-[90m    5970. [39m padding-left: 6px;
-[90m    5971. [39m margin-bottom: 8px!important;
-[90m    5972. [39m font-size: 12px;
-[90m    5973. [39m color: #000;
-[90m    5974. [39m background-color: #FFF;
+[90m    5975. [39m left: 4px;
+[90m    5976. [39m width: 100%;
+[90m    5977. [39m padding-top: 4px;
+[90m    5978. [39m padding-bottom: 2px;
+[90m    5979. [39m padding-left: 6px;
+[90m    5980. [39m margin-bottom: 8px!important;
+[90m    5981. [39m font-size: 12px;
+[90m    5982. [39m color: #000;
+[90m    5983. [39m background-color: #FFF;
 

@@ -6827,6 +6827,18 @@ td.visible-print {
   margin-top: 140px;
 }
 
+.top-menu {
+  font-weight: bold;
+}
+
+.top-menu a {
+  color: #AAAAAA;
+}
+
+.top-menu .active a {
+  color: #FFFFFF;
+}
+
 .logo-header {
   margin-top: -4px;
   font-family: "AkzidenzBQCondensed";
