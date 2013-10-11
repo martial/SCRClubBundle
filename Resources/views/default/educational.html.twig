@@ -10,28 +10,21 @@
         {% for node in node.children %}
 
             <div class="row educ-grid">
-                <div class="col-xs-12 col-md-6 padding-20 ">
+                <div class="col-xs-12 col-md-6 text-block ">
 
                     <div class="project-name"><a href="{{path('page', {'slug': node.slug}) }}">{{ node.name | raw }}</a></div>
                     {{ node.header | raw }}
 
                 </div>
 
-                <div class=" col-xs-12 col-md-3 padding-20 ">
 
-
+                <div class=" col-xs-12 col-md-3 text-block ">
                     <div class="project-name">&nbsp;</div>
                     {{ node.description | raw }}
-
-
                 </div>
 
-                <div class="col-xs-12 col-md-3 padding-20 ">
-
-
+                <div class="col-xs-12 col-md-3 text-block ">
                     <div id="carousel-{{ node.id }}" class="carousel">
-
-
                         <div class="carousel-inner">
 
 
@@ -47,8 +40,6 @@
                                 {% endif %}
                             {% endfor %}
                         </div>
-
-
                         {% if  node.mediaNodes | length > 1 %}
                         <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-{{ node.id }}" data-slide="prev">
@@ -61,10 +52,7 @@
 
                         {% endif %}
                     </div>
-
-
                 </div>
-
             </div>
 
             {% include 'scrclubSCRClubBundle:default:delimiters.html.twig' with {'type': menuType} %}

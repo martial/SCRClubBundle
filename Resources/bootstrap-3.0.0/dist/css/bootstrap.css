@@ -6890,6 +6890,10 @@ td.visible-print {
   padding-bottom: 20px;
 }
 
+.about-grid .text-bloc {
+  padding-bottom: 20px;
+}
+
 .about-grid img {
   max-width: 100%;
 }
@@ -6928,6 +6932,9 @@ td.visible-print {
   }
   .about-grid {
     padding-top: 30px;
+  }
+  .about-grid .text-bloc {
+    padding-bottom: 0;
   }
   .nav-section-menu {
     display: none;
