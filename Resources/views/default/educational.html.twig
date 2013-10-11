@@ -12,7 +12,7 @@
             <div class="row educ-grid">
                 <div class="col-xs-12 col-md-6 padding-20 ">
 
-                    <div class="project-name">{{ node.name | raw }}</div>
+                    <div class="project-name"><a href="{{path('page', {'slug': node.slug}) }}">{{ node.name | raw }}</a></div>
                     {{ node.header | raw }}
 
                 </div>
