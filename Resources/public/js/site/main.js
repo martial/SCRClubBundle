@@ -43,13 +43,14 @@ function updateMenu () {
     $(".logo-header .logo").unbind("click");
 
     var defaultContainerMarginTop = $(".container-fixed-menu").css("margin-top");
+    var menuElem =  $(".nav-section-menu");
 
     if (win.width() < 992 ) {
 
 
         $(".logo-header .logo").click(function () {
 
-            var menuElem =  $(".nav-section-menu");
+
             menuElem.toggle(200);
 
             if ( menuElem.css("display") != "none") {
@@ -65,6 +66,14 @@ function updateMenu () {
             }
 
         })
+
+    } else {
+
+        // show menu
+       // menuElem.css("display", "block");
+        menuElem.removeAttr( 'style' );
+        $(".container-fixed-menu").removeAttr( 'style' );
+        $(".nav-menu-container").removeAttr( 'style' );
 
     }
 
