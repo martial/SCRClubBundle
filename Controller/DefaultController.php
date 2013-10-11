@@ -23,6 +23,7 @@ class DefaultController extends SiteController
         $config     = null;
         if (isset($configs[0])) {
             $config = $configs[0];
+
         }
 
 
@@ -36,7 +37,8 @@ class DefaultController extends SiteController
         return $this->render('scrclubSCRClubBundle:default:home.html.twig', array(
             'nodes' => $nodes,
             'analyticsEmbed' => $googleAnalyticsEmbed,
-            'langs' => $langs
+            'langs' => $langs,
+            'config' => $config
 
         ));
 
