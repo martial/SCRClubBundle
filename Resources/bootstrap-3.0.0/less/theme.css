@@ -218,27 +218,27 @@ FAILURES: [35m138 failures[39m
 
   Correct order below:
 [39m[39m
-[90m     135. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#1a1a1a), to(#000000));
-[90m     136. [39m background-image: -webkit-linear-gradient(top, #1a1a1a, 0%, #000000, 100%);
-[90m     137. [39m background-image: -moz-linear-gradient(top, #1a1a1a 0%, #000000 100%);
-[90m     138. [39m background-image: linear-gradient(to bottom, #1a1a1a 0%, #000000 100%);
+[90m     135. [39m background-image: -webkit-gradient(linear, left 0%, left 100%, from(#ffffff), to(#ffffff));
+[90m     136. [39m background-image: -webkit-linear-gradient(top, #ffffff, 0%, #ffffff, 100%);
+[90m     137. [39m background-image: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+[90m     138. [39m background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
 [90m     139. [39m background-repeat: repeat-x;
 [90m     140. [39m border-radius: 4px;
-[90m     141. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1a1a1a', endColorstr='#ff000000', GradientType=0);
+[90m     141. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
 [90m     142. [39m -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
 [90m     143. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
 
 [36mNo need to specify units when a value is 0[39m
-[90m     135. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#1a1a1a), to(#000000));
+[90m     135. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#ffffff), to(#ffffff));
 
 [36mNo need to specify units when a value is 0[39m
-[90m     136. [39mbackground-image: -webkit-linear-gradient(top, #1a1a1a, 0[35m%[39m, #000000, 100%);
+[90m     136. [39mbackground-image: -webkit-linear-gradient(top, #ffffff, 0[35m%[39m, #ffffff, 100%);
 
 [36mNo need to specify units when a value is 0[39m
-[90m     137. [39mbackground-image: -moz-linear-gradient(top, #1a1a1a 0[35m%[39m, #000000 100%);
+[90m     137. [39mbackground-image: -moz-linear-gradient(top, #ffffff 0[35m%[39m, #ffffff 100%);
 
 [36mNo need to specify units when a value is 0[39m
-[90m     138. [39mbackground-image: linear-gradient(to bottom, #1a1a1a 0[35m%[39m, #000000 100%);
+[90m     138. [39mbackground-image: linear-gradient(to bottom, #ffffff 0[35m%[39m, #ffffff 100%);
 
 [36mNo need to specify units when a value is 0[39m
 [90m     153. [39mbackground-image: -webkit-gradient(linear, left 0[35m%[39m, left 100%, from(#3c3c3c), to(#222222));

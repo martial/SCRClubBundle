@@ -18,6 +18,28 @@ a:active{
     color: #FFFFFF;
 }
 
+.navbar-default {
+
+    background-color: #000;
+    border-color: #000;
+
+}
+
+.top-menu a {
+
+
+    color:#AAAAAA;
+
+}
+
+.top-menu .active a {
+
+    color:#FFFFFF;
+
+}
+
+
+
 
 .white-block {
 

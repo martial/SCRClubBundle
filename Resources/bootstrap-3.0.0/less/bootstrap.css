@@ -1162,1088 +1162,1087 @@ FAILURES: [35m426 failures[39m
 
   Correct order below:
 [39m[39m
-[90m    3484. [39m display: table;
-[90m    3485. [39m content: " ";
+[90m    3483. [39m display: table;
+[90m    3484. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".navbar:before, .navbar:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3496. [39m display: table;
-[90m    3497. [39m content: " ";
+[90m    3495. [39m display: table;
+[90m    3496. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".navbar-header:before, .navbar-header:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3513. [39m display: table;
-[90m    3514. [39m content: " ";
+[90m    3512. [39m display: table;
+[90m    3513. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".navbar-header:before, .navbar-header:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3525. [39m display: table;
-[90m    3526. [39m content: " ";
+[90m    3524. [39m display: table;
+[90m    3525. [39m content: " ";
 
 [36mUnknown property name: "-webkit-overflow-scrolling"[39m
 [36mIncorrect property order for rule[35m ".navbar-collapse"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3541. [39m max-height: 340px;
-[90m    3542. [39m padding-right: 15px;
-[90m    3543. [39m padding-left: 15px;
-[90m    3544. [39m overflow-x: visible;
-[90m    3545. [39m border-top: 1px solid transparent;
-[90m    3546. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-[90m    3547. [39m -webkit-overflow-scrolling: touch;
+[90m    3540. [39m max-height: 340px;
+[90m    3541. [39m padding-right: 15px;
+[90m    3542. [39m padding-left: 15px;
+[90m    3543. [39m overflow-x: visible;
+[90m    3544. [39m border-top: 1px solid transparent;
+[90m    3545. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+[90m    3546. [39m -webkit-overflow-scrolling: touch;
 
 [36mIncorrect property order for rule[35m ".navbar-collapse:before, .navbar-collapse:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3551. [39m display: table;
-[90m    3552. [39m content: " ";
+[90m    3550. [39m display: table;
+[90m    3551. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".navbar-collapse:before, .navbar-collapse:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3563. [39m display: table;
-[90m    3564. [39m content: " ";
+[90m    3562. [39m display: table;
+[90m    3563. [39m content: " ";
 
 [36mElement selectors should not be overqualified[39m
-[90m    3573. [39m.[35mnavbar-collapse[39m.in
+[90m    3572. [39m.[35mnavbar-collapse[39m.in
 
 [36mIncorrect property order for rule[35m ".navbar-fixed-top"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3635. [39m top: 0;
-[90m    3636. [39m z-index: 1030;
+[90m    3634. [39m top: 0;
+[90m    3635. [39m z-index: 1030;
 
 [36mIncorrect property order for rule[35m ".navbar-toggle"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3658. [39m position: relative;
-[90m    3659. [39m float: right;
-[90m    3660. [39m padding: 9px 10px;
-[90m    3661. [39m margin-top: 8px;
-[90m    3662. [39m margin-right: 15px;
-[90m    3663. [39m margin-bottom: 8px;
-[90m    3664. [39m background-color: transparent;
-[90m    3665. [39m border: 1px solid transparent;
-[90m    3666. [39m border-radius: 4px;
+[90m    3657. [39m position: relative;
+[90m    3658. [39m float: right;
+[90m    3659. [39m padding: 9px 10px;
+[90m    3660. [39m margin-top: 8px;
+[90m    3661. [39m margin-right: 15px;
+[90m    3662. [39m margin-bottom: 8px;
+[90m    3663. [39m background-color: transparent;
+[90m    3664. [39m border: 1px solid transparent;
+[90m    3665. [39m border-radius: 4px;
 
 [36mIncorrect property order for rule[35m ".navbar-form"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3734. [39m padding: 10px 15px;
-[90m    3735. [39m margin-top: 8px;
-[90m    3736. [39m margin-right: -15px;
-[90m    3737. [39m margin-bottom: 8px;
-[90m    3738. [39m margin-left: -15px;
-[90m    3739. [39m border-top: 1px solid transparent;
-[90m    3740. [39m border-bottom: 1px solid transparent;
-[90m    3741. [39m -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-[90m    3742. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+[90m    3733. [39m padding: 10px 15px;
+[90m    3734. [39m margin-top: 8px;
+[90m    3735. [39m margin-right: -15px;
+[90m    3736. [39m margin-bottom: 8px;
+[90m    3737. [39m margin-left: -15px;
+[90m    3738. [39m border-top: 1px solid transparent;
+[90m    3739. [39m -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+[90m    3740. [39m box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
 
 [36mElement selectors should not be overqualified[39m
-[90m    3792. [39m.[35mnavbar-nav[39m.pull-right > li > .dropdown-menu
+[90m    3790. [39m.[35mnavbar-nav[39m.pull-right > li > .dropdown-menu
 
 [36mElement selectors should not be overqualified[39m
-[90m    3793. [39m.navbar-nav > li > .[35mdropdown-menu[39m.pull-right
+[90m    3791. [39m.navbar-nav > li > .[35mdropdown-menu[39m.pull-right
 
 [36mIncorrect property order for rule[35m ".navbar-nav.pull-right > li > .dropdown-menu, .navbar-nav > li > .dropdown-menu.pull-right"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3794. [39m right: 0;
-[90m    3795. [39m left: auto;
+[90m    3792. [39m right: 0;
+[90m    3793. [39m left: auto;
 
 [36mIncorrect property order for rule[35m ".navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3869. [39m color: #555555;
-[90m    3870. [39m background-color: #000000;
+[90m    3867. [39m color: #555555;
+[90m    3868. [39m background-color: #eeeeee;
 
 [36mIncorrect property order for rule[35m ".navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    3962. [39m color: #ffffff;
-[90m    3963. [39m background-color: #080808;
+[90m    3960. [39m color: #ffffff;
+[90m    3961. [39m background-color: #080808;
 
 [36mIncorrect property order for rule[35m ".breadcrumb > li + li:before"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4021. [39m padding: 0 5px;
-[90m    4022. [39m color: #cccccc;
-[90m    4023. [39m content: "/\00a0";
+[90m    4019. [39m padding: 0 5px;
+[90m    4020. [39m color: #cccccc;
+[90m    4021. [39m content: "/\00a0";
 
 [36mIncorrect property order for rule[35m ".pagination > li > a, .pagination > li > span"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4039. [39m position: relative;
-[90m    4040. [39m float: left;
-[90m    4041. [39m padding: 6px 12px;
-[90m    4042. [39m margin-left: -1px;
-[90m    4043. [39m line-height: 1.428571429;
-[90m    4044. [39m text-decoration: none;
-[90m    4045. [39m background-color: #ffffff;
-[90m    4046. [39m border: 1px solid #dddddd;
+[90m    4037. [39m position: relative;
+[90m    4038. [39m float: left;
+[90m    4039. [39m padding: 6px 12px;
+[90m    4040. [39m margin-left: -1px;
+[90m    4041. [39m line-height: 1.428571429;
+[90m    4042. [39m text-decoration: none;
+[90m    4043. [39m background-color: #ffffff;
+[90m    4044. [39m border: 1px solid #dddddd;
 
 [36mIncorrect property order for rule[35m ".pagination > li:last-child > a, .pagination > li:last-child > span"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4056. [39m border-top-right-radius: 4px;
-[90m    4057. [39m border-bottom-right-radius: 4px;
+[90m    4054. [39m border-top-right-radius: 4px;
+[90m    4055. [39m border-bottom-right-radius: 4px;
 
 [36mIncorrect property order for rule[35m ".pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4071. [39m z-index: 2;
-[90m    4072. [39m color: #ffffff;
-[90m    4073. [39m cursor: default;
-[90m    4074. [39m background-color: #428bca;
-[90m    4075. [39m border-color: #428bca;
+[90m    4069. [39m z-index: 2;
+[90m    4070. [39m color: #ffffff;
+[90m    4071. [39m cursor: default;
+[90m    4072. [39m background-color: #428bca;
+[90m    4073. [39m border-color: #428bca;
 
 [36mIncorrect property order for rule[35m ".pagination > .disabled > span, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4081. [39m color: #999999;
-[90m    4082. [39m cursor: not-allowed;
-[90m    4083. [39m background-color: #ffffff;
-[90m    4084. [39m border-color: #dddddd;
+[90m    4079. [39m color: #999999;
+[90m    4080. [39m cursor: not-allowed;
+[90m    4081. [39m background-color: #ffffff;
+[90m    4082. [39m border-color: #dddddd;
 
 [36mIncorrect property order for rule[35m ".pagination-lg > li:last-child > a, .pagination-lg > li:last-child > span"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4098. [39m border-top-right-radius: 6px;
-[90m    4099. [39m border-bottom-right-radius: 6px;
+[90m    4096. [39m border-top-right-radius: 6px;
+[90m    4097. [39m border-bottom-right-radius: 6px;
 
 [36mIncorrect property order for rule[35m ".pagination-sm > li:last-child > a, .pagination-sm > li:last-child > span"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4113. [39m border-top-right-radius: 3px;
-[90m    4114. [39m border-bottom-right-radius: 3px;
+[90m    4111. [39m border-top-right-radius: 3px;
+[90m    4112. [39m border-bottom-right-radius: 3px;
 
 [36mIncorrect property order for rule[35m ".pager"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4117. [39m padding-left: 0;
-[90m    4118. [39m margin: 20px 0;
-[90m    4119. [39m text-align: center;
-[90m    4120. [39m list-style: none;
+[90m    4115. [39m padding-left: 0;
+[90m    4116. [39m margin: 20px 0;
+[90m    4117. [39m text-align: center;
+[90m    4118. [39m list-style: none;
 
 [36mIncorrect property order for rule[35m ".pager:before, .pager:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4124. [39m display: table;
-[90m    4125. [39m content: " ";
+[90m    4122. [39m display: table;
+[90m    4123. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".pager:before, .pager:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4136. [39m display: table;
-[90m    4137. [39m content: " ";
+[90m    4134. [39m display: table;
+[90m    4135. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".pager .disabled > a, .pager .disabled > a:hover, .pager .disabled > a:focus, .pager .disabled > span"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4174. [39m color: #999999;
-[90m    4175. [39m cursor: not-allowed;
-[90m    4176. [39m background-color: #ffffff;
+[90m    4172. [39m color: #999999;
+[90m    4173. [39m cursor: not-allowed;
+[90m    4174. [39m background-color: #ffffff;
 
 [36mIncorrect property order for rule[35m ".badge"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4242. [39m display: inline-block;
-[90m    4243. [39m min-width: 10px;
-[90m    4244. [39m padding: 3px 7px;
-[90m    4245. [39m font-size: 12px;
-[90m    4246. [39m font-weight: bold;
-[90m    4247. [39m line-height: 1;
-[90m    4248. [39m color: #ffffff;
-[90m    4249. [39m text-align: center;
-[90m    4250. [39m white-space: nowrap;
-[90m    4251. [39m vertical-align: baseline;
-[90m    4252. [39m background-color: #999999;
-[90m    4253. [39m border-radius: 10px;
+[90m    4240. [39m display: inline-block;
+[90m    4241. [39m min-width: 10px;
+[90m    4242. [39m padding: 3px 7px;
+[90m    4243. [39m font-size: 12px;
+[90m    4244. [39m font-weight: bold;
+[90m    4245. [39m line-height: 1;
+[90m    4246. [39m color: #ffffff;
+[90m    4247. [39m text-align: center;
+[90m    4248. [39m white-space: nowrap;
+[90m    4249. [39m vertical-align: baseline;
+[90m    4250. [39m background-color: #999999;
+[90m    4251. [39m border-radius: 10px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4258. [39m[35ma[39m.badge:hover
+[90m    4256. [39m[35ma[39m.badge:hover
 
 [36mElement selectors should not be overqualified[39m
-[90m    4259. [39m[35ma[39m.badge:focus
+[90m    4257. [39m[35ma[39m.badge:focus
 
 [36mElement selectors should not be overqualified[39m
-[90m    4268. [39m[35ma[39m.list-group-item.active > .badge
+[90m    4266. [39m[35ma[39m.list-group-item.active > .badge
 
 [36mIncorrect property order for rule[35m ".thumbnail"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4309. [39m display: inline-block;
-[90m    4310. [39m display: block;
-[90m    4311. [39m height: auto;
-[90m    4312. [39m max-width: 100%;
-[90m    4313. [39m padding: 4px;
-[90m    4314. [39m line-height: 1.428571429;
-[90m    4315. [39m background-color: #ffffff;
-[90m    4316. [39m border: 1px solid #dddddd;
-[90m    4317. [39m border-radius: 4px;
-[90m    4318. [39m -webkit-transition: all 0.2s ease-in-out;
-[90m    4319. [39m transition: all 0.2s ease-in-out;
+[90m    4307. [39m display: inline-block;
+[90m    4308. [39m display: block;
+[90m    4309. [39m height: auto;
+[90m    4310. [39m max-width: 100%;
+[90m    4311. [39m padding: 4px;
+[90m    4312. [39m line-height: 1.428571429;
+[90m    4313. [39m background-color: #ffffff;
+[90m    4314. [39m border: 1px solid #dddddd;
+[90m    4315. [39m border-radius: 4px;
+[90m    4316. [39m -webkit-transition: all 0.2s ease-in-out;
+[90m    4317. [39m transition: all 0.2s ease-in-out;
 
 [36mIncorrect property order for rule[35m ".thumbnail > img"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4322. [39m display: block;
-[90m    4323. [39m height: auto;
-[90m    4324. [39m max-width: 100%;
+[90m    4320. [39m display: block;
+[90m    4321. [39m height: auto;
+[90m    4322. [39m max-width: 100%;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4326. [39m[35ma[39m.thumbnail:hover
+[90m    4324. [39m[35ma[39m.thumbnail:hover
 
 [36mElement selectors should not be overqualified[39m
-[90m    4327. [39m[35ma[39m.thumbnail:focus
+[90m    4325. [39m[35ma[39m.thumbnail:focus
 
 [36mIncorrect property order for rule[35m ".thumbnail > img"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4331. [39m margin-right: auto;
-[90m    4332. [39m margin-left: auto;
+[90m    4329. [39m margin-right: auto;
+[90m    4330. [39m margin-left: auto;
 
 [36mIncorrect property order for rule[35m ".alert-success"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4368. [39m color: #468847;
-[90m    4369. [39m background-color: #dff0d8;
-[90m    4370. [39m border-color: #d6e9c6;
+[90m    4366. [39m color: #468847;
+[90m    4367. [39m background-color: #dff0d8;
+[90m    4368. [39m border-color: #d6e9c6;
 
 [36mIncorrect property order for rule[35m ".alert-info"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4379. [39m color: #3a87ad;
-[90m    4380. [39m background-color: #d9edf7;
-[90m    4381. [39m border-color: #bce8f1;
+[90m    4377. [39m color: #3a87ad;
+[90m    4378. [39m background-color: #d9edf7;
+[90m    4379. [39m border-color: #bce8f1;
 
 [36mIncorrect property order for rule[35m ".alert-warning"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4390. [39m color: #c09853;
-[90m    4391. [39m background-color: #fcf8e3;
-[90m    4392. [39m border-color: #fbeed5;
+[90m    4388. [39m color: #c09853;
+[90m    4389. [39m background-color: #fcf8e3;
+[90m    4390. [39m border-color: #fbeed5;
 
 [36mIncorrect property order for rule[35m ".alert-danger"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4401. [39m color: #b94a48;
-[90m    4402. [39m background-color: #f2dede;
-[90m    4403. [39m border-color: #eed3d7;
+[90m    4399. [39m color: #b94a48;
+[90m    4400. [39m background-color: #f2dede;
+[90m    4401. [39m border-color: #eed3d7;
 
 [36mIncorrect property order for rule[35m ".progress"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4444. [39m height: 20px;
-[90m    4445. [39m margin-bottom: 20px;
-[90m    4446. [39m overflow: hidden;
-[90m    4447. [39m background-color: #f5f5f5;
-[90m    4448. [39m border-radius: 4px;
-[90m    4449. [39m -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-[90m    4450. [39m box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+[90m    4442. [39m height: 20px;
+[90m    4443. [39m margin-bottom: 20px;
+[90m    4444. [39m overflow: hidden;
+[90m    4445. [39m background-color: #f5f5f5;
+[90m    4446. [39m border-radius: 4px;
+[90m    4447. [39m -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+[90m    4448. [39m box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 
 [36mNo need to specify units when a value is 0[39m
-[90m    4454. [39mwidth: 0[35m%[39m;
+[90m    4452. [39mwidth: 0[35m%[39m;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4472. [39m.[35mprogress[39m.active .progress-bar
+[90m    4470. [39m.[35mprogress[39m.active .progress-bar
 
 [36mIncorrect property order for rule[35m ".list-group"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4544. [39m padding-left: 0;
-[90m    4545. [39m margin-bottom: 20px;
+[90m    4542. [39m padding-left: 0;
+[90m    4543. [39m margin-bottom: 20px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4570. [39m[35ma[39m.list-group-item
+[90m    4568. [39m[35ma[39m.list-group-item
 
 [36mElement selectors should not be overqualified[39m
-[90m    4573. [39m[35ma[39m.list-group-item .list-group-item-heading
+[90m    4571. [39m[35ma[39m.list-group-item .list-group-item-heading
 
 [36mElement selectors should not be overqualified[39m
-[90m    4576. [39m[35ma[39m.list-group-item:hover
+[90m    4574. [39m[35ma[39m.list-group-item:hover
 
 [36mElement selectors should not be overqualified[39m
-[90m    4577. [39m[35ma[39m.list-group-item:focus
+[90m    4575. [39m[35ma[39m.list-group-item:focus
 
 [36mElement selectors should not be overqualified[39m
-[90m    4581. [39m.[35mlist-group-item[39m.active
+[90m    4579. [39m.[35mlist-group-item[39m.active
 
 [36mElement selectors should not be overqualified[39m
-[90m    4582. [39m.[35mlist-group-item[39m.active:hover
+[90m    4580. [39m.[35mlist-group-item[39m.active:hover
 
 [36mElement selectors should not be overqualified[39m
-[90m    4583. [39m.[35mlist-group-item[39m.active:focus
+[90m    4581. [39m.[35mlist-group-item[39m.active:focus
 
 [36mElement selectors should not be overqualified[39m
-[90m    4589. [39m.[35mlist-group-item[39m.active .list-group-item-heading
+[90m    4587. [39m.[35mlist-group-item[39m.active .list-group-item-heading
 
 [36mElement selectors should not be overqualified[39m
-[90m    4590. [39m.[35mlist-group-item[39m.active:hover .list-group-item-heading
+[90m    4588. [39m.[35mlist-group-item[39m.active:hover .list-group-item-heading
 
 [36mElement selectors should not be overqualified[39m
-[90m    4591. [39m.[35mlist-group-item[39m.active:focus .list-group-item-heading
+[90m    4589. [39m.[35mlist-group-item[39m.active:focus .list-group-item-heading
 
 [36mElement selectors should not be overqualified[39m
-[90m    4594. [39m.[35mlist-group-item[39m.active .list-group-item-text
+[90m    4592. [39m.[35mlist-group-item[39m.active .list-group-item-text
 
 [36mElement selectors should not be overqualified[39m
-[90m    4595. [39m.[35mlist-group-item[39m.active:hover .list-group-item-text
+[90m    4593. [39m.[35mlist-group-item[39m.active:hover .list-group-item-text
 
 [36mElement selectors should not be overqualified[39m
-[90m    4596. [39m.[35mlist-group-item[39m.active:focus .list-group-item-text
+[90m    4594. [39m.[35mlist-group-item[39m.active:focus .list-group-item-text
 
 [36mIncorrect property order for rule[35m ".panel-body:before, .panel-body:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4620. [39m display: table;
-[90m    4621. [39m content: " ";
+[90m    4618. [39m display: table;
+[90m    4619. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".panel-body:before, .panel-body:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4632. [39m display: table;
-[90m    4633. [39m content: " ";
+[90m    4630. [39m display: table;
+[90m    4631. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".panel-group .panel"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4686. [39m margin-bottom: 0;
-[90m    4687. [39m overflow: hidden;
-[90m    4688. [39m border-radius: 4px;
+[90m    4684. [39m margin-bottom: 0;
+[90m    4685. [39m overflow: hidden;
+[90m    4686. [39m border-radius: 4px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4829. [39m[35mbutton[39m.close
+[90m    4827. [39m[35mbutton[39m.close
 
 [36mElement selectors should not be overqualified[39m
-[90m    4839. [39m[35mbody[39m.modal-open
+[90m    4837. [39m[35mbody[39m.modal-open
 
 [36mIncorrect property order for rule[35m ".modal"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4845. [39m position: fixed;
-[90m    4846. [39m top: 0;
-[90m    4847. [39m right: 0;
-[90m    4848. [39m bottom: 0;
-[90m    4849. [39m left: 0;
-[90m    4850. [39m z-index: 1040;
-[90m    4851. [39m display: none;
-[90m    4852. [39m overflow: auto;
-[90m    4853. [39m overflow-y: scroll;
+[90m    4843. [39m position: fixed;
+[90m    4844. [39m top: 0;
+[90m    4845. [39m right: 0;
+[90m    4846. [39m bottom: 0;
+[90m    4847. [39m left: 0;
+[90m    4848. [39m z-index: 1040;
+[90m    4849. [39m display: none;
+[90m    4850. [39m overflow: auto;
+[90m    4851. [39m overflow-y: scroll;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4855. [39m.[35mmodal[39m.fade .modal-dialog
+[90m    4853. [39m.[35mmodal[39m.fade .modal-dialog
 
 [36mElement selectors should not be overqualified[39m
-[90m    4864. [39m.[35mmodal[39m.in .modal-dialog
+[90m    4862. [39m.[35mmodal[39m.in .modal-dialog
 
 [36mIncorrect property order for rule[35m ".modal-dialog"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4870. [39m z-index: 1050;
-[90m    4871. [39m width: auto;
-[90m    4872. [39m padding: 10px;
-[90m    4873. [39m margin-right: auto;
-[90m    4874. [39m margin-left: auto;
+[90m    4868. [39m z-index: 1050;
+[90m    4869. [39m width: auto;
+[90m    4870. [39m padding: 10px;
+[90m    4871. [39m margin-right: auto;
+[90m    4872. [39m margin-left: auto;
 
 [36mIncorrect property order for rule[35m ".modal-content"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4877. [39m position: relative;
-[90m    4878. [39m background-color: #ffffff;
-[90m    4879. [39m border: 1px solid #999999;
-[90m    4880. [39m border: 1px solid rgba(0, 0, 0, 0.2);
-[90m    4881. [39m border-radius: 6px;
-[90m    4882. [39m outline: none;
-[90m    4883. [39m -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-[90m    4884. [39m box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-[90m    4885. [39m background-clip: padding-box;
+[90m    4875. [39m position: relative;
+[90m    4876. [39m background-color: #ffffff;
+[90m    4877. [39m border: 1px solid #999999;
+[90m    4878. [39m border: 1px solid rgba(0, 0, 0, 0.2);
+[90m    4879. [39m border-radius: 6px;
+[90m    4880. [39m outline: none;
+[90m    4881. [39m -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+[90m    4882. [39m box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+[90m    4883. [39m background-clip: padding-box;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4896. [39m.[35mmodal-backdrop[39m.fade
+[90m    4894. [39m.[35mmodal-backdrop[39m.fade
 
 [36mElement selectors should not be overqualified[39m
-[90m    4900. [39m.[35mmodal-backdrop[39m.in
+[90m    4898. [39m.[35mmodal-backdrop[39m.in
 
 [36mIncorrect property order for rule[35m ".modal-header"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4905. [39m min-height: 16.428571429px;
-[90m    4906. [39m padding: 15px;
-[90m    4907. [39m border-bottom: 1px solid #e5e5e5;
+[90m    4903. [39m min-height: 16.428571429px;
+[90m    4904. [39m padding: 15px;
+[90m    4905. [39m border-bottom: 1px solid #e5e5e5;
 
 [36mIncorrect property order for rule[35m ".modal-footer"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4921. [39m padding: 19px 20px 20px;
-[90m    4922. [39m margin-top: 15px;
-[90m    4923. [39m text-align: right;
-[90m    4924. [39m border-top: 1px solid #e5e5e5;
+[90m    4919. [39m padding: 19px 20px 20px;
+[90m    4920. [39m margin-top: 15px;
+[90m    4921. [39m text-align: right;
+[90m    4922. [39m border-top: 1px solid #e5e5e5;
 
 [36mIncorrect property order for rule[35m ".modal-footer:before, .modal-footer:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4928. [39m display: table;
-[90m    4929. [39m content: " ";
+[90m    4926. [39m display: table;
+[90m    4927. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".modal-footer:before, .modal-footer:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4940. [39m display: table;
-[90m    4941. [39m content: " ";
+[90m    4938. [39m display: table;
+[90m    4939. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".modal-footer .btn + .btn"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4951. [39m margin-bottom: 0;
-[90m    4952. [39m margin-left: 5px;
+[90m    4949. [39m margin-bottom: 0;
+[90m    4950. [39m margin-left: 5px;
 
 [36mIncorrect property order for rule[35m ".tooltip"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4974. [39m position: absolute;
-[90m    4975. [39m z-index: 1030;
-[90m    4976. [39m display: block;
-[90m    4977. [39m font-size: 12px;
-[90m    4978. [39m line-height: 1.4;
-[90m    4979. [39m opacity: 0;
-[90m    4980. [39m filter: alpha(opacity=0);
-[90m    4981. [39m visibility: visible;
+[90m    4972. [39m position: absolute;
+[90m    4973. [39m z-index: 1030;
+[90m    4974. [39m display: block;
+[90m    4975. [39m font-size: 12px;
+[90m    4976. [39m line-height: 1.4;
+[90m    4977. [39m opacity: 0;
+[90m    4978. [39m filter: alpha(opacity=0);
+[90m    4979. [39m visibility: visible;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4983. [39m.[35mtooltip[39m.in
+[90m    4981. [39m.[35mtooltip[39m.in
 
 [36mElement selectors should not be overqualified[39m
-[90m    4987. [39m.[35mtooltip[39m.top
+[90m    4985. [39m.[35mtooltip[39m.top
 
 [36mIncorrect property order for rule[35m ".tooltip.top"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4988. [39m padding: 5px 0;
-[90m    4989. [39m margin-top: -3px;
+[90m    4986. [39m padding: 5px 0;
+[90m    4987. [39m margin-top: -3px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4991. [39m.[35mtooltip[39m.right
+[90m    4989. [39m.[35mtooltip[39m.right
 
 [36mIncorrect property order for rule[35m ".tooltip.right"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4992. [39m padding: 0 5px;
-[90m    4993. [39m margin-left: 3px;
+[90m    4990. [39m padding: 0 5px;
+[90m    4991. [39m margin-left: 3px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4995. [39m.[35mtooltip[39m.bottom
+[90m    4993. [39m.[35mtooltip[39m.bottom
 
 [36mIncorrect property order for rule[35m ".tooltip.bottom"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    4996. [39m padding: 5px 0;
-[90m    4997. [39m margin-top: 3px;
+[90m    4994. [39m padding: 5px 0;
+[90m    4995. [39m margin-top: 3px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    4999. [39m.[35mtooltip[39m.left
+[90m    4997. [39m.[35mtooltip[39m.left
 
 [36mIncorrect property order for rule[35m ".tooltip.left"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5000. [39m padding: 0 5px;
-[90m    5001. [39m margin-left: -3px;
+[90m    4998. [39m padding: 0 5px;
+[90m    4999. [39m margin-left: -3px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5019. [39m.[35mtooltip[39m.top .tooltip-arrow
+[90m    5017. [39m.[35mtooltip[39m.top .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.top .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5020. [39m bottom: 0;
-[90m    5021. [39m left: 50%;
-[90m    5022. [39m margin-left: -5px;
-[90m    5023. [39m border-top-color: #000000;
-[90m    5024. [39m border-width: 5px 5px 0;
+[90m    5018. [39m bottom: 0;
+[90m    5019. [39m left: 50%;
+[90m    5020. [39m margin-left: -5px;
+[90m    5021. [39m border-top-color: #000000;
+[90m    5022. [39m border-width: 5px 5px 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5026. [39m.[35mtooltip[39m.top-left .tooltip-arrow
+[90m    5024. [39m.[35mtooltip[39m.top-left .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.top-left .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5027. [39m bottom: 0;
-[90m    5028. [39m left: 5px;
-[90m    5029. [39m border-top-color: #000000;
-[90m    5030. [39m border-width: 5px 5px 0;
+[90m    5025. [39m bottom: 0;
+[90m    5026. [39m left: 5px;
+[90m    5027. [39m border-top-color: #000000;
+[90m    5028. [39m border-width: 5px 5px 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5032. [39m.[35mtooltip[39m.top-right .tooltip-arrow
+[90m    5030. [39m.[35mtooltip[39m.top-right .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.top-right .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5033. [39m right: 5px;
-[90m    5034. [39m bottom: 0;
-[90m    5035. [39m border-top-color: #000000;
-[90m    5036. [39m border-width: 5px 5px 0;
+[90m    5031. [39m right: 5px;
+[90m    5032. [39m bottom: 0;
+[90m    5033. [39m border-top-color: #000000;
+[90m    5034. [39m border-width: 5px 5px 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5038. [39m.[35mtooltip[39m.right .tooltip-arrow
+[90m    5036. [39m.[35mtooltip[39m.right .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.right .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5039. [39m top: 50%;
-[90m    5040. [39m left: 0;
-[90m    5041. [39m margin-top: -5px;
-[90m    5042. [39m border-right-color: #000000;
-[90m    5043. [39m border-width: 5px 5px 5px 0;
+[90m    5037. [39m top: 50%;
+[90m    5038. [39m left: 0;
+[90m    5039. [39m margin-top: -5px;
+[90m    5040. [39m border-right-color: #000000;
+[90m    5041. [39m border-width: 5px 5px 5px 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5045. [39m.[35mtooltip[39m.left .tooltip-arrow
+[90m    5043. [39m.[35mtooltip[39m.left .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.left .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5046. [39m top: 50%;
-[90m    5047. [39m right: 0;
-[90m    5048. [39m margin-top: -5px;
-[90m    5049. [39m border-left-color: #000000;
-[90m    5050. [39m border-width: 5px 0 5px 5px;
+[90m    5044. [39m top: 50%;
+[90m    5045. [39m right: 0;
+[90m    5046. [39m margin-top: -5px;
+[90m    5047. [39m border-left-color: #000000;
+[90m    5048. [39m border-width: 5px 0 5px 5px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5052. [39m.[35mtooltip[39m.bottom .tooltip-arrow
+[90m    5050. [39m.[35mtooltip[39m.bottom .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.bottom .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5053. [39m top: 0;
-[90m    5054. [39m left: 50%;
-[90m    5055. [39m margin-left: -5px;
-[90m    5056. [39m border-bottom-color: #000000;
-[90m    5057. [39m border-width: 0 5px 5px;
+[90m    5051. [39m top: 0;
+[90m    5052. [39m left: 50%;
+[90m    5053. [39m margin-left: -5px;
+[90m    5054. [39m border-bottom-color: #000000;
+[90m    5055. [39m border-width: 0 5px 5px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5059. [39m.[35mtooltip[39m.bottom-left .tooltip-arrow
+[90m    5057. [39m.[35mtooltip[39m.bottom-left .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.bottom-left .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5060. [39m top: 0;
-[90m    5061. [39m left: 5px;
-[90m    5062. [39m border-bottom-color: #000000;
-[90m    5063. [39m border-width: 0 5px 5px;
+[90m    5058. [39m top: 0;
+[90m    5059. [39m left: 5px;
+[90m    5060. [39m border-bottom-color: #000000;
+[90m    5061. [39m border-width: 0 5px 5px;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5065. [39m.[35mtooltip[39m.bottom-right .tooltip-arrow
+[90m    5063. [39m.[35mtooltip[39m.bottom-right .tooltip-arrow
 
 [36mIncorrect property order for rule[35m ".tooltip.bottom-right .tooltip-arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5066. [39m top: 0;
-[90m    5067. [39m right: 5px;
-[90m    5068. [39m border-bottom-color: #000000;
-[90m    5069. [39m border-width: 0 5px 5px;
+[90m    5064. [39m top: 0;
+[90m    5065. [39m right: 5px;
+[90m    5066. [39m border-bottom-color: #000000;
+[90m    5067. [39m border-width: 0 5px 5px;
 
 [36mIncorrect property order for rule[35m ".popover"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5072. [39m position: absolute;
-[90m    5073. [39m top: 0;
-[90m    5074. [39m left: 0;
-[90m    5075. [39m z-index: 1010;
-[90m    5076. [39m display: none;
-[90m    5077. [39m max-width: 276px;
-[90m    5078. [39m padding: 1px;
-[90m    5079. [39m text-align: left;
-[90m    5080. [39m white-space: normal;
-[90m    5081. [39m background-color: #ffffff;
-[90m    5082. [39m border: 1px solid #cccccc;
-[90m    5083. [39m border: 1px solid rgba(0, 0, 0, 0.2);
-[90m    5084. [39m border-radius: 6px;
-[90m    5085. [39m -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-[90m    5086. [39m box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-[90m    5087. [39m background-clip: padding-box;
+[90m    5070. [39m position: absolute;
+[90m    5071. [39m top: 0;
+[90m    5072. [39m left: 0;
+[90m    5073. [39m z-index: 1010;
+[90m    5074. [39m display: none;
+[90m    5075. [39m max-width: 276px;
+[90m    5076. [39m padding: 1px;
+[90m    5077. [39m text-align: left;
+[90m    5078. [39m white-space: normal;
+[90m    5079. [39m background-color: #ffffff;
+[90m    5080. [39m border: 1px solid #cccccc;
+[90m    5081. [39m border: 1px solid rgba(0, 0, 0, 0.2);
+[90m    5082. [39m border-radius: 6px;
+[90m    5083. [39m -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+[90m    5084. [39m box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+[90m    5085. [39m background-clip: padding-box;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5089. [39m.[35mpopover[39m.top
+[90m    5087. [39m.[35mpopover[39m.top
 
 [36mElement selectors should not be overqualified[39m
-[90m    5092. [39m.[35mpopover[39m.right
+[90m    5090. [39m.[35mpopover[39m.right
 
 [36mElement selectors should not be overqualified[39m
-[90m    5095. [39m.[35mpopover[39m.bottom
+[90m    5093. [39m.[35mpopover[39m.bottom
 
 [36mElement selectors should not be overqualified[39m
-[90m    5098. [39m.[35mpopover[39m.left
+[90m    5096. [39m.[35mpopover[39m.left
 
 [36mIncorrect property order for rule[35m ".popover-title"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5102. [39m padding: 8px 14px;
-[90m    5103. [39m margin: 0;
-[90m    5104. [39m font-size: 14px;
-[90m    5105. [39m font-weight: normal;
-[90m    5106. [39m line-height: 18px;
-[90m    5107. [39m background-color: #f7f7f7;
-[90m    5108. [39m border-bottom: 1px solid #ebebeb;
-[90m    5109. [39m border-radius: 5px 5px 0 0;
+[90m    5100. [39m padding: 8px 14px;
+[90m    5101. [39m margin: 0;
+[90m    5102. [39m font-size: 14px;
+[90m    5103. [39m font-weight: normal;
+[90m    5104. [39m line-height: 18px;
+[90m    5105. [39m background-color: #f7f7f7;
+[90m    5106. [39m border-bottom: 1px solid #ebebeb;
+[90m    5107. [39m border-radius: 5px 5px 0 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5130. [39m.[35mpopover[39m.top .arrow
+[90m    5128. [39m.[35mpopover[39m.top .arrow
 
 [36mIncorrect property order for rule[35m ".popover.top .arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5131. [39m bottom: -11px;
-[90m    5132. [39m left: 50%;
-[90m    5133. [39m margin-left: -11px;
-[90m    5134. [39m border-top-color: #999999;
-[90m    5135. [39m border-top-color: rgba(0, 0, 0, 0.25);
-[90m    5136. [39m border-bottom-width: 0;
+[90m    5129. [39m bottom: -11px;
+[90m    5130. [39m left: 50%;
+[90m    5131. [39m margin-left: -11px;
+[90m    5132. [39m border-top-color: #999999;
+[90m    5133. [39m border-top-color: rgba(0, 0, 0, 0.25);
+[90m    5134. [39m border-bottom-width: 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5138. [39m.[35mpopover[39m.top .arrow:after
+[90m    5136. [39m.[35mpopover[39m.top .arrow:after
 
 [36mIncorrect property order for rule[35m ".popover.top .arrow:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5139. [39m bottom: 1px;
-[90m    5140. [39m margin-left: -10px;
-[90m    5141. [39m border-top-color: #ffffff;
-[90m    5142. [39m border-bottom-width: 0;
-[90m    5143. [39m content: " ";
+[90m    5137. [39m bottom: 1px;
+[90m    5138. [39m margin-left: -10px;
+[90m    5139. [39m border-top-color: #ffffff;
+[90m    5140. [39m border-bottom-width: 0;
+[90m    5141. [39m content: " ";
 
 [36mElement selectors should not be overqualified[39m
-[90m    5145. [39m.[35mpopover[39m.right .arrow
+[90m    5143. [39m.[35mpopover[39m.right .arrow
 
 [36mIncorrect property order for rule[35m ".popover.right .arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5146. [39m top: 50%;
-[90m    5147. [39m left: -11px;
-[90m    5148. [39m margin-top: -11px;
-[90m    5149. [39m border-right-color: #999999;
-[90m    5150. [39m border-right-color: rgba(0, 0, 0, 0.25);
-[90m    5151. [39m border-left-width: 0;
+[90m    5144. [39m top: 50%;
+[90m    5145. [39m left: -11px;
+[90m    5146. [39m margin-top: -11px;
+[90m    5147. [39m border-right-color: #999999;
+[90m    5148. [39m border-right-color: rgba(0, 0, 0, 0.25);
+[90m    5149. [39m border-left-width: 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5153. [39m.[35mpopover[39m.right .arrow:after
+[90m    5151. [39m.[35mpopover[39m.right .arrow:after
 
 [36mIncorrect property order for rule[35m ".popover.right .arrow:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5154. [39m bottom: -10px;
-[90m    5155. [39m left: 1px;
-[90m    5156. [39m border-right-color: #ffffff;
-[90m    5157. [39m border-left-width: 0;
-[90m    5158. [39m content: " ";
+[90m    5152. [39m bottom: -10px;
+[90m    5153. [39m left: 1px;
+[90m    5154. [39m border-right-color: #ffffff;
+[90m    5155. [39m border-left-width: 0;
+[90m    5156. [39m content: " ";
 
 [36mElement selectors should not be overqualified[39m
-[90m    5160. [39m.[35mpopover[39m.bottom .arrow
+[90m    5158. [39m.[35mpopover[39m.bottom .arrow
 
 [36mIncorrect property order for rule[35m ".popover.bottom .arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5161. [39m top: -11px;
-[90m    5162. [39m left: 50%;
-[90m    5163. [39m margin-left: -11px;
-[90m    5164. [39m border-bottom-color: #999999;
-[90m    5165. [39m border-bottom-color: rgba(0, 0, 0, 0.25);
-[90m    5166. [39m border-top-width: 0;
+[90m    5159. [39m top: -11px;
+[90m    5160. [39m left: 50%;
+[90m    5161. [39m margin-left: -11px;
+[90m    5162. [39m border-bottom-color: #999999;
+[90m    5163. [39m border-bottom-color: rgba(0, 0, 0, 0.25);
+[90m    5164. [39m border-top-width: 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5168. [39m.[35mpopover[39m.bottom .arrow:after
+[90m    5166. [39m.[35mpopover[39m.bottom .arrow:after
 
 [36mIncorrect property order for rule[35m ".popover.bottom .arrow:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5169. [39m top: 1px;
-[90m    5170. [39m margin-left: -10px;
-[90m    5171. [39m border-bottom-color: #ffffff;
-[90m    5172. [39m border-top-width: 0;
-[90m    5173. [39m content: " ";
+[90m    5167. [39m top: 1px;
+[90m    5168. [39m margin-left: -10px;
+[90m    5169. [39m border-bottom-color: #ffffff;
+[90m    5170. [39m border-top-width: 0;
+[90m    5171. [39m content: " ";
 
 [36mElement selectors should not be overqualified[39m
-[90m    5175. [39m.[35mpopover[39m.left .arrow
+[90m    5173. [39m.[35mpopover[39m.left .arrow
 
 [36mIncorrect property order for rule[35m ".popover.left .arrow"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5176. [39m top: 50%;
-[90m    5177. [39m right: -11px;
-[90m    5178. [39m margin-top: -11px;
-[90m    5179. [39m border-left-color: #999999;
-[90m    5180. [39m border-left-color: rgba(0, 0, 0, 0.25);
-[90m    5181. [39m border-right-width: 0;
+[90m    5174. [39m top: 50%;
+[90m    5175. [39m right: -11px;
+[90m    5176. [39m margin-top: -11px;
+[90m    5177. [39m border-left-color: #999999;
+[90m    5178. [39m border-left-color: rgba(0, 0, 0, 0.25);
+[90m    5179. [39m border-right-width: 0;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5183. [39m.[35mpopover[39m.left .arrow:after
+[90m    5181. [39m.[35mpopover[39m.left .arrow:after
 
 [36mIncorrect property order for rule[35m ".popover.left .arrow:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5184. [39m right: 1px;
-[90m    5185. [39m bottom: -10px;
-[90m    5186. [39m border-left-color: #ffffff;
-[90m    5187. [39m border-right-width: 0;
-[90m    5188. [39m content: " ";
+[90m    5182. [39m right: 1px;
+[90m    5183. [39m bottom: -10px;
+[90m    5184. [39m border-left-color: #ffffff;
+[90m    5185. [39m border-right-width: 0;
+[90m    5186. [39m content: " ";
 
 [36mIncorrect property order for rule[35m ".carousel-inner"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5194. [39m position: relative;
-[90m    5195. [39m width: 100%;
-[90m    5196. [39m overflow: hidden;
+[90m    5192. [39m position: relative;
+[90m    5193. [39m width: 100%;
+[90m    5194. [39m overflow: hidden;
 
 [36mIncorrect property order for rule[35m ".carousel-inner > .item"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5199. [39m position: relative;
-[90m    5200. [39m display: none;
-[90m    5201. [39m -webkit-transition: 0.6s ease-in-out left;
-[90m    5202. [39m transition: 0.6s ease-in-out left;
+[90m    5197. [39m position: relative;
+[90m    5198. [39m display: none;
+[90m    5199. [39m -webkit-transition: 0.6s ease-in-out left;
+[90m    5200. [39m transition: 0.6s ease-in-out left;
 
 [36mIncorrect property order for rule[35m ".carousel-inner > .item > img, .carousel-inner > .item > a > img"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5206. [39m display: block;
-[90m    5207. [39m height: auto;
-[90m    5208. [39m max-width: 100%;
-[90m    5209. [39m line-height: 1;
+[90m    5204. [39m display: block;
+[90m    5205. [39m height: auto;
+[90m    5206. [39m max-width: 100%;
+[90m    5207. [39m line-height: 1;
 
 [36mElement selectors should not be overqualified[39m
-[90m    5231. [39m.carousel-inner > .[35mnext[39m.left
+[90m    5229. [39m.carousel-inner > .[35mnext[39m.left
 
 [36mElement selectors should not be overqualified[39m
-[90m    5232. [39m.carousel-inner > .[35mprev[39m.right
+[90m    5230. [39m.carousel-inner > .[35mprev[39m.right
 
 [36mElement selectors should not be overqualified[39m
-[90m    5235. [39m.carousel-inner > .[35mactive[39m.left
+[90m    5233. [39m.carousel-inner > .[35mactive[39m.left
 
 [36mElement selectors should not be overqualified[39m
-[90m    5238. [39m.carousel-inner > .[35mactive[39m.right
+[90m    5236. [39m.carousel-inner > .[35mactive[39m.right
 
 [36mIncorrect property order for rule[35m ".carousel-control"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5242. [39m position: absolute;
-[90m    5243. [39m top: 0;
-[90m    5244. [39m bottom: 0;
-[90m    5245. [39m left: 0;
-[90m    5246. [39m width: 15%;
-[90m    5247. [39m font-size: 20px;
-[90m    5248. [39m color: #ffffff;
-[90m    5249. [39m text-align: center;
-[90m    5250. [39m text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
-[90m    5251. [39m opacity: 0.5;
-[90m    5252. [39m filter: alpha(opacity=50);
+[90m    5240. [39m position: absolute;
+[90m    5241. [39m top: 0;
+[90m    5242. [39m bottom: 0;
+[90m    5243. [39m left: 0;
+[90m    5244. [39m width: 15%;
+[90m    5245. [39m font-size: 20px;
+[90m    5246. [39m color: #ffffff;
+[90m    5247. [39m text-align: center;
+[90m    5248. [39m text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+[90m    5249. [39m opacity: 0.5;
+[90m    5250. [39m filter: alpha(opacity=50);
 
 [36mElement selectors should not be overqualified[39m
-[90m    5254. [39m.[35mcarousel-control[39m.left
+[90m    5252. [39m.[35mcarousel-control[39m.left
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5255. [39mbackground-image: -webkit-gradient(linear, 0[35m%[39m top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
+[90m    5253. [39mbackground-image: -webkit-gradient(linear, 0[35m%[39m top, 100% top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.0001)));
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5256. [39mbackground-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0[35m%[39m), color-stop(rgba(0, 0, 0, 0.0001) 100%));
+[90m    5254. [39mbackground-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.5) 0[35m%[39m), color-stop(rgba(0, 0, 0, 0.0001) 100%));
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5257. [39mbackground-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0[35m%[39m, rgba(0, 0, 0, 0.0001) 100%);
+[90m    5255. [39mbackground-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0[35m%[39m, rgba(0, 0, 0, 0.0001) 100%);
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5258. [39mbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0[35m%[39m, rgba(0, 0, 0, 0.0001) 100%);
+[90m    5256. [39mbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0[35m%[39m, rgba(0, 0, 0, 0.0001) 100%);
 
 [36mElement selectors should not be overqualified[39m
-[90m    5262. [39m.[35mcarousel-control[39m.right
+[90m    5260. [39m.[35mcarousel-control[39m.right
 
 [36mIncorrect property order for rule[35m ".carousel-control.right"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5263. [39m right: 0;
-[90m    5264. [39m left: auto;
-[90m    5265. [39m background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
-[90m    5266. [39m background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
-[90m    5267. [39m background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-[90m    5268. [39m background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
-[90m    5269. [39m background-repeat: repeat-x;
-[90m    5270. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+[90m    5261. [39m right: 0;
+[90m    5262. [39m left: auto;
+[90m    5263. [39m background-image: -webkit-gradient(linear, 0% top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+[90m    5264. [39m background-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0%), color-stop(rgba(0, 0, 0, 0.5) 100%));
+[90m    5265. [39m background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+[90m    5266. [39m background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+[90m    5267. [39m background-repeat: repeat-x;
+[90m    5268. [39m filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5265. [39mbackground-image: -webkit-gradient(linear, 0[35m%[39m top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
+[90m    5263. [39mbackground-image: -webkit-gradient(linear, 0[35m%[39m top, 100% top, from(rgba(0, 0, 0, 0.0001)), to(rgba(0, 0, 0, 0.5)));
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5266. [39mbackground-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0[35m%[39m), color-stop(rgba(0, 0, 0, 0.5) 100%));
+[90m    5264. [39mbackground-image: -webkit-linear-gradient(left, color-stop(rgba(0, 0, 0, 0.0001) 0[35m%[39m), color-stop(rgba(0, 0, 0, 0.5) 100%));
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5267. [39mbackground-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0[35m%[39m, rgba(0, 0, 0, 0.5) 100%);
+[90m    5265. [39mbackground-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0[35m%[39m, rgba(0, 0, 0, 0.5) 100%);
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5268. [39mbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0[35m%[39m, rgba(0, 0, 0, 0.5) 100%);
+[90m    5266. [39mbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0[35m%[39m, rgba(0, 0, 0, 0.5) 100%);
 
 [36mIncorrect property order for rule[35m ".carousel-indicators"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5302. [39m position: absolute;
-[90m    5303. [39m bottom: 10px;
-[90m    5304. [39m left: 50%;
-[90m    5305. [39m z-index: 15;
-[90m    5306. [39m width: 60%;
-[90m    5307. [39m padding-left: 0;
-[90m    5308. [39m margin-left: -30%;
-[90m    5309. [39m text-align: center;
-[90m    5310. [39m list-style: none;
+[90m    5300. [39m position: absolute;
+[90m    5301. [39m bottom: 10px;
+[90m    5302. [39m left: 50%;
+[90m    5303. [39m z-index: 15;
+[90m    5304. [39m width: 60%;
+[90m    5305. [39m padding-left: 0;
+[90m    5306. [39m margin-left: -30%;
+[90m    5307. [39m text-align: center;
+[90m    5308. [39m list-style: none;
 
 [36mIncorrect property order for rule[35m ".carousel-indicators li"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5313. [39m display: inline-block;
-[90m    5314. [39m width: 10px;
-[90m    5315. [39m height: 10px;
-[90m    5316. [39m margin: 1px;
-[90m    5317. [39m text-indent: -999px;
-[90m    5318. [39m cursor: pointer;
-[90m    5319. [39m border: 1px solid #ffffff;
-[90m    5320. [39m border-radius: 10px;
+[90m    5311. [39m display: inline-block;
+[90m    5312. [39m width: 10px;
+[90m    5313. [39m height: 10px;
+[90m    5314. [39m margin: 1px;
+[90m    5315. [39m text-indent: -999px;
+[90m    5316. [39m cursor: pointer;
+[90m    5317. [39m border: 1px solid #ffffff;
+[90m    5318. [39m border-radius: 10px;
 
 [36mIncorrect property order for rule[35m ".carousel-indicators .active"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5323. [39m width: 12px;
-[90m    5324. [39m height: 12px;
-[90m    5325. [39m margin: 0;
-[90m    5326. [39m background-color: #ffffff;
+[90m    5321. [39m width: 12px;
+[90m    5322. [39m height: 12px;
+[90m    5323. [39m margin: 0;
+[90m    5324. [39m background-color: #ffffff;
 
 [36mIncorrect property order for rule[35m ".carousel-caption"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5329. [39m position: absolute;
-[90m    5330. [39m right: 15%;
-[90m    5331. [39m bottom: 20px;
-[90m    5332. [39m left: 15%;
-[90m    5333. [39m z-index: 10;
-[90m    5334. [39m padding-top: 20px;
-[90m    5335. [39m padding-bottom: 20px;
-[90m    5336. [39m color: #ffffff;
-[90m    5337. [39m text-align: center;
-[90m    5338. [39m text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+[90m    5327. [39m position: absolute;
+[90m    5328. [39m right: 15%;
+[90m    5329. [39m bottom: 20px;
+[90m    5330. [39m left: 15%;
+[90m    5331. [39m z-index: 10;
+[90m    5332. [39m padding-top: 20px;
+[90m    5333. [39m padding-bottom: 20px;
+[90m    5334. [39m color: #ffffff;
+[90m    5335. [39m text-align: center;
+[90m    5336. [39m text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 
 [36mIncorrect property order for rule[35m ".clearfix:before, .clearfix:after"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5361. [39m display: table;
-[90m    5362. [39m content: " ";
+[90m    5359. [39m display: table;
+[90m    5360. [39m content: " ";
 
 [36mElement selectors should not be overqualified[39m
-[90m    5411. [39m[35mtr[39m.visible-xs
+[90m    5409. [39m[35mtr[39m.visible-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5414. [39m[35mth[39m.visible-xs
+[90m    5412. [39m[35mth[39m.visible-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5415. [39m[35mtd[39m.visible-xs
+[90m    5413. [39m[35mtd[39m.visible-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5469. [39m[35mtr[39m.visible-sm
+[90m    5467. [39m[35mtr[39m.visible-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5472. [39m[35mth[39m.visible-sm
+[90m    5470. [39m[35mth[39m.visible-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5473. [39m[35mtd[39m.visible-sm
+[90m    5471. [39m[35mtd[39m.visible-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5527. [39m[35mtr[39m.visible-md
+[90m    5525. [39m[35mtr[39m.visible-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5530. [39m[35mth[39m.visible-md
+[90m    5528. [39m[35mth[39m.visible-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5531. [39m[35mtd[39m.visible-md
+[90m    5529. [39m[35mtd[39m.visible-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5585. [39m[35mtr[39m.visible-lg
+[90m    5583. [39m[35mtr[39m.visible-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5588. [39m[35mth[39m.visible-lg
+[90m    5586. [39m[35mth[39m.visible-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5589. [39m[35mtd[39m.visible-lg
+[90m    5587. [39m[35mtd[39m.visible-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5643. [39m[35mtr[39m.hidden-xs
+[90m    5641. [39m[35mtr[39m.hidden-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5646. [39m[35mth[39m.hidden-xs
+[90m    5644. [39m[35mth[39m.hidden-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5647. [39m[35mtd[39m.hidden-xs
+[90m    5645. [39m[35mtd[39m.hidden-xs
 
 [36mElement selectors should not be overqualified[39m
-[90m    5701. [39m[35mtr[39m.hidden-sm
+[90m    5699. [39m[35mtr[39m.hidden-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5704. [39m[35mth[39m.hidden-sm
+[90m    5702. [39m[35mth[39m.hidden-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5705. [39m[35mtd[39m.hidden-sm
+[90m    5703. [39m[35mtd[39m.hidden-sm
 
 [36mElement selectors should not be overqualified[39m
-[90m    5759. [39m[35mtr[39m.hidden-md
+[90m    5757. [39m[35mtr[39m.hidden-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5762. [39m[35mth[39m.hidden-md
+[90m    5760. [39m[35mth[39m.hidden-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5763. [39m[35mtd[39m.hidden-md
+[90m    5761. [39m[35mtd[39m.hidden-md
 
 [36mElement selectors should not be overqualified[39m
-[90m    5817. [39m[35mtr[39m.hidden-lg
+[90m    5815. [39m[35mtr[39m.hidden-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5820. [39m[35mth[39m.hidden-lg
+[90m    5818. [39m[35mth[39m.hidden-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5821. [39m[35mtd[39m.hidden-lg
+[90m    5819. [39m[35mtd[39m.hidden-lg
 
 [36mElement selectors should not be overqualified[39m
-[90m    5875. [39m[35mtr[39m.visible-print
+[90m    5873. [39m[35mtr[39m.visible-print
 
 [36mElement selectors should not be overqualified[39m
-[90m    5878. [39m[35mth[39m.visible-print
+[90m    5876. [39m[35mth[39m.visible-print
 
 [36mElement selectors should not be overqualified[39m
-[90m    5879. [39m[35mtd[39m.visible-print
+[90m    5877. [39m[35mtd[39m.visible-print
 
 [36mIncorrect property order for rule[35m ".logo-header"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5938. [39m margin-top: -4px;
-[90m    5939. [39m font-family: "AkzidenzBQCondensed";
-[90m    5940. [39m font-size: 32px;
+[90m    5936. [39m margin-top: -4px;
+[90m    5937. [39m font-family: "AkzidenzBQCondensed";
+[90m    5938. [39m font-size: 32px;
 
 [36mIncorrect property order for rule[35m ".logo-header p"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5943. [39m margin-top: -10px;
-[90m    5944. [39m font-size: 24px;
+[90m    5941. [39m margin-top: -10px;
+[90m    5942. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".block-delimiter"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5950. [39m border-bottom: 1px solid #000000;
-[90m    5951. [39m border-bottom-style: solid;
-[90m    5952. [39m border-bottom-width: 1px;
+[90m    5948. [39m border-bottom: 1px solid #000000;
+[90m    5949. [39m border-bottom-style: solid;
+[90m    5950. [39m border-bottom-width: 1px;
 
 [36mIncorrect property order for rule[35m ".home-grid .img-block .img-content"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5962. [39m border-bottom: 1px solid #000000;
-[90m    5963. [39m border-bottom-style: solid;
-[90m    5964. [39m border-bottom-width: 1px;
+[90m    5960. [39m border-bottom: 1px solid #000000;
+[90m    5961. [39m border-bottom-style: solid;
+[90m    5962. [39m border-bottom-width: 1px;
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5970. [39mpadding-top: 0[35mpx[39m;
+[90m    5968. [39mpadding-top: 0[35mpx[39m;
 
 [36mIncorrect property order for rule[35m ".project-name"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5977. [39m margin-bottom: 10px;
-[90m    5978. [39m font-family: "AkzidenzBQCondensed";
-[90m    5979. [39m font-size: 24px;
+[90m    5975. [39m margin-bottom: 10px;
+[90m    5976. [39m font-family: "AkzidenzBQCondensed";
+[90m    5977. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".white-block"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5982. [39m left: 4px;
-[90m    5983. [39m width: 100%;
-[90m    5984. [39m padding-top: 4px;
-[90m    5985. [39m padding-bottom: 2px;
-[90m    5986. [39m padding-left: 6px;
-[90m    5987. [39m margin-bottom: 8px!important;
-[90m    5988. [39m font-size: 12px;
-[90m    5989. [39m color: #000;
-[90m    5990. [39m background-color: #FFF;
+[90m    5980. [39m left: 4px;
+[90m    5981. [39m width: 100%;
+[90m    5982. [39m padding-top: 4px;
+[90m    5983. [39m padding-bottom: 2px;
+[90m    5984. [39m padding-left: 6px;
+[90m    5985. [39m margin-bottom: 8px!important;
+[90m    5986. [39m font-size: 12px;
+[90m    5987. [39m color: #000;
+[90m    5988. [39m background-color: #FFF;
 

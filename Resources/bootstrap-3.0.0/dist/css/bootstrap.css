@@ -4015,7 +4015,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 1000;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
 }
 
 .navbar:before,
@@ -4289,7 +4288,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-bottom: 8px;
   margin-left: -15px;
   border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
 }
@@ -4372,8 +4370,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #ffffff;
+  border-color: #eeeeee;
 }
 
 .navbar-default .navbar-brand {
@@ -4404,7 +4402,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
-  background-color: #000000;
+  background-color: #eeeeee;
 }
 
 .navbar-default .navbar-nav > .disabled > a,
@@ -4429,7 +4427,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #000000;
+  border-color: #ededed;
 }
 
 .navbar-default .navbar-nav > .dropdown > a:hover .caret,
@@ -4442,7 +4440,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #555555;
-  background-color: #000000;
+  background-color: #eeeeee;
 }
 
 .navbar-default .navbar-nav > .open > a .caret,
@@ -4470,7 +4468,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555555;
-    background-color: #000000;
+    background-color: #eeeeee;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -6836,7 +6834,7 @@ td.visible-print {
 }
 
 .top-menu .active a {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .logo-header {
