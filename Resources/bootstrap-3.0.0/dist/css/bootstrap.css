@@ -6924,6 +6924,7 @@ td.visible-print {
     margin-top: 10px;
     font-family: "AkzidenzBQCondensed";
     font-size: 20px;
+    font-weight: normal;
     text-transform: uppercase;
     border-top: 1px solid #FFFFFF;
     border-top: 1px;
