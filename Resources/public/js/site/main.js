@@ -1,15 +1,28 @@
+var win = jQuery(window);
+win.bind('resize scroll', updateMenu);
+var isMobile;
+var hasMobileChanged = false;
+
 $(function () {
 
     updateMenu();
 
+    $("#home-link").hover(function () {
+
+        getQuotes("https://dl.dropboxusercontent.com/u/817108/screenclub/home.txt");
+
+    }, function () {
+        getQuotes("https://dl.dropboxusercontent.com/u/817108/screenclub/quotes.txt");
+    })
+
 })
 
-getQuotes();
+getQuotes("https://dl.dropboxusercontent.com/u/817108/screenclub/quotes.txt");
 
-function getQuotes () {
+function getQuotes (url) {
 
     $.ajax({
-        url: "https://dl.dropboxusercontent.com/u/817108/screenclub/quotes.txt",
+        url: url,
         context: document.body
     }).done(function(data) {
 
@@ -22,25 +35,31 @@ function getQuotes () {
 
 function updateHeadline (headlines) {
 
+    // if we're in mobile mode, shuffle calls the menu
+    var text;
+    if (win.width() < 992 ) {
+
+        text = "MENU";
+
+    } else {
+
+        var index = parseInt(Math.random() * (headlines.length -1));
+        text = headlines[index];
+    }
 
     var index = parseInt(Math.random() * (headlines.length -1));
-
-
     $("#shuffle").shuffleLetters({
-        "text": headlines[index]
+        "text": text
     });
 
 
 }
 
 
-var win = jQuery(window);
-win.bind('resize scroll', updateMenu);
-
 function updateMenu () {
 
     // assign collabible menu
-    $(".logo-header .logo").unbind("click");
+    $("#shuffle").unbind("click");
 
     var defaultContainerMarginTop = $(".container-fixed-menu").css("margin-top");
     var menuElem =  $(".nav-section-menu");
@@ -48,7 +67,7 @@ function updateMenu () {
     if (win.width() < 992 ) {
 
 
-        $(".logo-header .logo").click(function () {
+        $("#shuffle").click(function () {
 
 
             menuElem.toggle(200);
@@ -67,6 +86,8 @@ function updateMenu () {
 
         })
 
+        isMobile = true;
+
     } else {
 
         // show menu
@@ -75,8 +96,16 @@ function updateMenu () {
         $(".container-fixed-menu").removeAttr( 'style' );
         $(".nav-menu-container").removeAttr( 'style' );
 
+
+
+        isMobile = false;
+
     }
 
+    if(isMobile != hasMobileChanged)
+        getQuotes("https://dl.dropboxusercontent.com/u/817108/screenclub/quotes.txt");
+
+    hasMobileChanged = isMobile;
 
     var scrolled = win.scrollTop();
 
