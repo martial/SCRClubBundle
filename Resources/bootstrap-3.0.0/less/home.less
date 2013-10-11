@@ -93,6 +93,17 @@
 /* Small devices (tablets, 768px and up) */
 @media (max-width: @screen-md) {
 
+  .nav-section-menu {
+
+    display:none;
+
+  }
+
+  .page-header {
+
+    margin-top: -20px;
+  }
+
   .logo {
     .pull-right;
     text-align: right;
@@ -102,7 +113,7 @@
 
     position:absolute;
     right:20px;
-    top:-40px;
+    top:10px;
 
   }
 
@@ -115,14 +126,14 @@
     border-top: 1px;
     border-top: solid;
     font-family: "AkzidenzBQCondensed";
-    font-size: 28px;
+    font-size: 20px;
     text-transform:uppercase;
 
 
   }
 
   .container-fixed-menu {
-    margin-top: 260px;
+    margin-top: 60px;
   }
 
   .row-menu {
@@ -137,6 +148,13 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) {
+
+  .nav-section-menu {
+
+    display:block;
+    overflow: auto;
+
+  }
 
 }
 

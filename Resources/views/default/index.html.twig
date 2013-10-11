@@ -42,6 +42,12 @@
 <script>
 
 
+    $(function () {
+
+        updateMenu();
+
+    })
+
     getQuotes();
 
     function getQuotes () {
@@ -71,20 +77,56 @@
 
     }
 
+
     var win = jQuery(window);
     win.bind('resize scroll', updateMenu);
 
     function updateMenu () {
 
+        // assign collabible menu
+        $(".row-menu").unbind("click");
+
+        var defaultContainerMarginTop = $(".container-fixed-menu").css("margin-top");
+
+        if (win.width() < 992 ) {
+
+
+            $(".row-menu").click(function () {
+
+                var menuElem =  $(".nav-section-menu");
+                menuElem.toggle(200);
+
+                if ( menuElem.css("display") != "none") {
+
+                    $(".container-fixed-menu").removeAttr( 'style' );
+                    $(".nav-menu-container").removeAttr( 'style' );
+
+                } else {
+
+                    $(".nav-menu-container").css('top', "10px");
+                    $(".container-fixed-menu").css("margin-top", "60px");
+
+                }
+
+            })
+
+        }
+
+
         var scrolled = win.scrollTop();
 
             var max = 20;
+            var min =  (win.width() < 992) ? -20 : -10;
             var ratio = max * scrolled / 40;
             ratio = (max - ratio);
-            var value = ( ratio < -10 ) ? -10 : ratio;
-            $(".page-header").css('margin-top', value+'px')
 
+            var value = ( ratio < min ) ?min : ratio;
 
+            if(win.width() < 992 ) {
+                value = min;
+            }
+
+            $(".page-header").css('margin-top', value+'px');
 
     }
 
