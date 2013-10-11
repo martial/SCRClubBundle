@@ -6879,6 +6879,15 @@ td.visible-print {
   max-width: 100%;
 }
 
+.about-grid {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.about-grid img {
+  max-width: 100%;
+}
+
 .project-name {
   margin-bottom: 10px;
   font-family: "AkzidenzBQCondensed";
@@ -6908,6 +6917,12 @@ td.visible-print {
 /* Small devices (tablets, 768px and up) */
 
 @media (max-width: 992px) {
+  .no-mobile {
+    display: none;
+  }
+  .about-grid {
+    padding-top: 30px;
+  }
   .nav-section-menu {
     display: none;
   }

@@ -4,19 +4,24 @@
 
     <div class="container">
 
-        <div class="row home-grid">
+        <div class="row about-grid">
             <div class="col-xs-12 col-md-6">
 
-                <div class="project-name">{{node.name | raw }}</div>
-                {{node.description | raw }}
-
-                <p>
                 <p>
                     <a href="http://www.github.com/martial" target="_blank" ><i class="social-icons icon-github icon-2x"></i></a>
                     <a href="http://www.twitter.com/martialtwist" target="_blank" ><i class="social-icons icon-twitter icon-2x"></i></a>
                     <a href="https://plus.google.com/u/0/112806109608496216218/posts" target="_blank" ><i class="social-icons icon-google-plus icon-2x"></i></a>
                     <a href="http://martial.tumblr.com" target="_blank" ><i class="social-icons icon-tumblr icon-2x"></i></a>
                 </p>
+
+                {% include 'scrclubSCRClubBundle:default:delimiters.html.twig' with {'type': "1"} %}
+
+                <div class="project-name">{{node.name | raw }}</div>
+                <p>
+                {{node.description | raw }}
+                </p>
+
+
 
 
 
