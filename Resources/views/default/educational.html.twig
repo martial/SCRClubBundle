@@ -33,7 +33,9 @@
 
 
                         <div class="carousel-inner">
-                            {% for mediaNode in node.mediaNodes %}
+
+
+                            {% for mediaNode in node.mediaNodes | shuffle%}
                                 {% if mediaNode.media.getType() == "image" %}
 
                                     <div class="item {% if loop.first %}active{% endif %}">
@@ -46,6 +48,8 @@
                             {% endfor %}
                         </div>
 
+
+                        {% if  node.mediaNodes | length > 1 %}
                         <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-{{ node.id }}" data-slide="prev">
                             <img class="icon-prev" src="{{ asset('bundles/scrclubscrclub/images/prev.png') }}"/>
@@ -54,6 +58,8 @@
                         <a class="right carousel-control" href="#carousel-{{ node.id }}" data-slide="next">
                             <img class="icon-next" src="{{ asset('bundles/scrclubscrclub/images/next.png') }}"/>
                         </a>
+
+                        {% endif %}
                     </div>
 
 
