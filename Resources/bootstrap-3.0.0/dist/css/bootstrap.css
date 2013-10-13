@@ -6822,7 +6822,7 @@ td.visible-print {
 }
 
 .container-fixed-menu {
-  margin-top: 140px;
+  margin-top: 160px;
 }
 
 .top-menu {
@@ -6879,7 +6879,6 @@ td.visible-print {
 
 .home-grid .img-block a:hover {
   text-decoration: none;
-  background-color: #FF0000;
 }
 
 .home-grid img {
