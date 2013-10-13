@@ -166,9 +166,6 @@ module.exports = function(grunt) {
               command: 'php ../../../../../app/console assets:install ../../../../../web'
           }
       }
-
-
-
   });
 
 

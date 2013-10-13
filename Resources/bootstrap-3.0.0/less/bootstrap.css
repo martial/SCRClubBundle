@@ -2222,27 +2222,27 @@ FAILURES: [35m426 failures[39m
 [90m    5965. [39m border-bottom-width: 1px;
 
 [36mNo need to specify units when a value is 0[39m
-[90m    5980. [39mpadding-top: 0[35mpx[39m;
+[90m    5983. [39mpadding-top: 0[35mpx[39m;
 
 [36mIncorrect property order for rule[35m ".project-name"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5987. [39m margin-bottom: 10px;
-[90m    5988. [39m font-family: "AkzidenzBQCondensed";
-[90m    5989. [39m font-size: 24px;
+[90m    5990. [39m margin-bottom: 10px;
+[90m    5991. [39m font-family: "AkzidenzBQCondensed";
+[90m    5992. [39m font-size: 24px;
 
 [36mIncorrect property order for rule[35m ".white-block"[39m[90m
 
   Correct order below:
 [39m[39m
-[90m    5992. [39m left: 4px;
-[90m    5993. [39m width: 100%;
-[90m    5994. [39m padding-top: 4px;
-[90m    5995. [39m padding-bottom: 2px;
-[90m    5996. [39m padding-left: 6px;
-[90m    5997. [39m margin-bottom: 8px!important;
-[90m    5998. [39m font-size: 12px;
-[90m    5999. [39m color: #000;
-[90m    6000. [39m background-color: #FFF;
+[90m    5995. [39m left: 4px;
+[90m    5996. [39m width: 100%;
+[90m    5997. [39m padding-top: 4px;
+[90m    5998. [39m padding-bottom: 2px;
+[90m    5999. [39m padding-left: 6px;
+[90m    6000. [39m margin-bottom: 8px!important;
+[90m    6001. [39m font-size: 12px;
+[90m    6002. [39m color: #000;
+[90m    6003. [39m background-color: #FFF;
 

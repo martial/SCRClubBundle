@@ -6877,6 +6877,11 @@ td.visible-print {
   border-bottom-width: 1px;
 }
 
+.home-grid .img-block a:hover {
+  text-decoration: none;
+  background-color: #FF0000;
+}
+
 .home-grid img {
   max-width: 100%;
 }
