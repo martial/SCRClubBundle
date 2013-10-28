@@ -1,11 +1,11 @@
 preview_homepage:
     pattern:  /home/{_locale}
-    defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:fr }
+    defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:en }
 
 page:
     pattern:  /page/{_locale}/{slug}
-    defaults: { _controller: scrclubSCRClubBundle:Default:page, _locale:fr }
+    defaults: { _controller: scrclubSCRClubBundle:Default:page, _locale:en }
 
 intro:
     pattern:  /
-    defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:fr }
+    defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:en }
