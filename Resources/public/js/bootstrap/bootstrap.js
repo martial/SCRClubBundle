@@ -2005,7 +2005,7 @@ var hasMobileChanged = false;
 
 $(function () {
 
-    animateMenu();
+    //animateMenu();
     updateMenu();
 
     $("#home-link").hover(function () {
@@ -2026,9 +2026,7 @@ function animateMenu () {
 
     $('.img-content').hover(function () {
 
-        //img-block
-
-        $(this).find(".white-block").animate({backgroundColor: '#000', color : "#FFF"}, 100)
+        $(this).find(".white-block").animate({backgroundColor: '#737373', color : "#FFF"}, 100)
 
     }, function () {
 
