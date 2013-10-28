@@ -6973,6 +6973,7 @@ td.visible-print {
     border-top: solid;
   }
   .container-fixed-menu {
+    padding-bottom: 20px;
     margin-top: 60px;
   }
   .row-menu {
