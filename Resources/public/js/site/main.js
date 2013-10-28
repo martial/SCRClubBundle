@@ -5,6 +5,7 @@ var hasMobileChanged = false;
 
 $(function () {
 
+    animateMenu();
     updateMenu();
 
     $("#home-link").hover(function () {
@@ -18,6 +19,24 @@ $(function () {
 })
 
 getQuotes("https://dl.dropboxusercontent.com/u/817108/screenclub/quotes.txt");
+
+function animateMenu () {
+
+    //console.log("coucou");
+
+    $('.img-content').hover(function () {
+
+        //img-block
+
+        $(this).find(".white-block").animate({backgroundColor: '#000', color : "#FFF"}, 100)
+
+    }, function () {
+
+        $(this).find(".white-block").animate({backgroundColor: '#FFF', color : "#000"}, 100)
+
+    })
+
+}
 
 function getQuotes (url) {
 
