@@ -114,7 +114,8 @@ class DefaultController extends SiteController
             $next = $next[0];
 
 
-
+        $twitter = $this->get("cms_bundle.twitter");
+        $tweets = $twitter->getTweets("martialtwist");
 
         return $this->render('scrclubSCRClubBundle:default:'.$template->getUrl(), array(
             'nodes' => $nodes,
@@ -124,7 +125,8 @@ class DefaultController extends SiteController
             'langs' => $langs,
             'config' => $config,
             'prev' => $prev,
-            'next'=> $next
+            'next'=> $next,
+            'tweets' => $tweets
 
         ));
 

@@ -21,6 +21,14 @@
                 {{node.description | raw }}
                 </p>
 
+                <hr />
+
+                    {% for tw in tweets %}
+                    Last tweet : <p>{{  tw.text }}</p>
+                    {% endfor %}
+
+
+
 
 
 
