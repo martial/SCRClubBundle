@@ -6821,6 +6821,22 @@ td.visible-print {
   src: url('../../fonts/akzidenzgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/akzidenzgrotesk-light-webfont.woff') format('woff'), url('../../fonts/akzidenzgrotesk-light-webfont.ttf') format('truetype'), url('../../fonts/akzidenzgrotesk-light-webfont.svg#akzidenz-grotesk_bq_lightRg') format('svg');
 }
 
+@font-face {
+  font-family: 'AkzidenzBQMedium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../fonts/akzidenzgrotesk-medium-webfont.eot');
+  src: url('../../fonts/akzidenzgrotesk-medium-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/akzidenzgrotesk-medium-webfont.woff') format('woff'), url('../../fonts/akzidenzgrotesk-medium-webfont.ttf') format('truetype'), url('../../fonts/akzidenzgrotesk-medium-webfont.svg#akzidenz-grotesk_bqmedium') format('svg');
+}
+
+@font-face {
+  font-family: 'AkzidenzBQRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../../fonts/akzidenzgrotesk-regular-webfont.eot');
+  src: url('../../fonts/akzidenzgrotesk-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/akzidenzgrotesk-regular-webfont.woff') format('woff'), url('../../fonts/akzidenzgrotesk-regular-webfont.ttf') format('truetype'), url('../../fonts/akzidenzgrotesk-regular-webfont.svg#akzidenz-grotesk_bqregular') format('svg');
+}
+
 .container-fixed-menu {
   margin-top: 140px;
   margin-bottom: 20px;
@@ -6914,7 +6930,8 @@ td.visible-print {
   padding-top: 4px;
   padding-bottom: 2px;
   padding-left: 6px;
-  margin-bottom: 8px!important;
+  margin-bottom: 12px!important;
+  font-family: "AkzidenzBQMedium";
   font-size: 12px;
   color: #000;
   background-color: #FFF;
