@@ -154,7 +154,7 @@ module.exports = function(grunt) {
       },
       recess: {
         files: 'less/*.less',
-        tasks: ['recess']
+        tasks: ['dist-css']
       }
     },
 

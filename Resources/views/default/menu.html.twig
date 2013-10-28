@@ -31,10 +31,22 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3">
 
+                {%  for lang in langs %}
+
+                    <a href="{{ path(app.request.get('_route'), app.request.get('_route_params') | merge({'_locale':  lang.locale })) }}" >{{ lang.locale }}</a>
+
+                    {%  if not loop.last %}
+                        <span> / </span>
+                    {% endif %}
+
+                {%  endfor %}
 
 
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3">
+
+
+
                 {% if node.type == "post" %}
                 <div class="pull-right nav-menu-container" >
                 {% if prev %}

@@ -6822,7 +6822,7 @@ td.visible-print {
 }
 
 .container-fixed-menu {
-  margin-top: 160px;
+  margin-top: 140px;
 }
 
 .top-menu {
@@ -6864,11 +6864,6 @@ td.visible-print {
 
 .padding-30 {
   padding-bottom: 30px;
-}
-
-.home-grid {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .home-grid .img-block .img-content {
@@ -6937,6 +6932,10 @@ td.visible-print {
 @media (max-width: 992px) {
   .no-mobile {
     display: none;
+  }
+  .home-grid {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .about-grid {
     padding-top: 30px;
