@@ -1,11 +1,13 @@
-preview_homepage:
-    pattern:  /home/{_locale}
+home:
+    pattern:  /projets/{_locale}
     defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:en }
+
 
 page:
     pattern:  /page/{_locale}/{slug}
     defaults: { _controller: scrclubSCRClubBundle:Default:page, _locale:en }
 
 intro:
-    pattern:  /{_locale}
+    pattern:  /
     defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:en }
+

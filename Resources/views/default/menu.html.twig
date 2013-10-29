@@ -33,7 +33,13 @@
 
                 {%  for lang in langs %}
 
-                    <a href="{{ path(app.request.get('_route'), app.request.get('_route_params') | merge({'_locale':  lang.locale })) }}" >{{ lang.locale }}</a>
+
+                    {% set route =  app.request.get('_route') %}
+                    {% if route == "intro"  %}
+                    {% set route = "home" %}
+                    {% endif %}
+
+                    <a href="{{ path(route, app.request.get('_route_params') | merge({'_locale':  lang.locale })) }}" >{{ lang.locale }}</a>
 
                     {%  if not loop.last %}
                         <span> / </span>
