@@ -33,7 +33,21 @@
 
                         <a href="{{path('page', {'slug': child.slug}) }}">
                             <div class="img-content">
-                            <img  alt="{{ child.name }}" src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_home') )}}" />
+
+                                 <span data-picture data-alt="{{ child.name }}">
+                                <span data-src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_home') )}}"></span>
+                                <span data-src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_home_large') )}}"     data-media="(min-width: 990px)"></span>
+
+                                     <!--[if (lt IE 9) & (!IEMobile)]>
+                                     <span data-src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_home') )}}"></span>
+                                     <![endif]-->
+
+
+                                     <noscript>
+                                </noscript>
+                            </span>
+
+
                             <div class="white-block" style=""  >{{ child.name }}</div>
 
 

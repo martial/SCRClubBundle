@@ -24,7 +24,7 @@
                 <hr />
 
                     {% for tw in tweets %}
-                    Last tweet : <p>{{  tw.text }}</p>
+                <a href="http://www.twitter.com/martialtwist" target="_blank" >@martialtwist :</a> <p>{{  linkText(tw.text) | raw}}</p>
                     {% endfor %}
 
 
