@@ -2003,6 +2003,12 @@ win.bind('resize scroll', updateMenu);
 var isMobile;
 var hasMobileChanged = false;
 
+var hr = (new Date()).getHours();
+
+if ( hr >= 18 || hr <= 9) {
+    $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='"+darkThemeUrl+"' type='text/css' media='screen'>");
+}
+
 $(function () {
 
     //animateMenu();

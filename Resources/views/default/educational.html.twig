@@ -33,6 +33,9 @@
                                 {% if mediaNode.media.getType() == "image" %}
 
                                     <div class="item {% if numImages == 0 %}active{% endif %}">
+
+
+
                                         <img src="{{ asset(mediaNode.media.getWebPath() | apply_filter("scr_carousel")) }}" alt="{{ mediaNode.media.name }}">
 
                                         <div class="carousel-caption"></div>
