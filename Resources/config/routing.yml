@@ -7,5 +7,5 @@ page:
     defaults: { _controller: scrclubSCRClubBundle:Default:page, _locale:en }
 
 intro:
-    pattern:  /
+    pattern:  /{_locale}
     defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:en }
