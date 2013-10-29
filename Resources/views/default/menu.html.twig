@@ -14,7 +14,7 @@
                 </div>
 
                 <div style="padding-left:0px"  class="logo col-xs-6 logo col-sm-6 col-md-3">
-                <img src="{{ asset('bundles/scrclubscrclub/images/logo.png') }}"/>
+                <img src="{{ asset('bundles/scrclubscrclub/images/logoblack.png') }}"/>
                 </div>
                 </div>
             </div>
@@ -50,10 +50,10 @@
                 {% if node.type == "post" %}
                 <div class="pull-right nav-menu-container" >
                 {% if prev %}
-                    <a id ="prev" style="padding-right:20px" href="{{path('page', {'slug': prev.slug}) }}"><img src="{{ asset('bundles/scrclubscrclub/images/prev.png') }}"/></a>
+                    <a id ="prev" style="padding-right:20px" href="{{path('page', {'slug': prev.slug}) }}"><img src="{{ asset('bundles/scrclubscrclub/images/prevblack.png') }}"/></a>
                 {% endif %}
                 {% if next %}
-                    <a id ="next" href="{{path('page', {'slug': next.slug}) }}"><img src="{{ asset('bundles/scrclubscrclub/images/next.png') }}"/></a>
+                    <a id ="next" href="{{path('page', {'slug': next.slug}) }}"><img src="{{ asset('bundles/scrclubscrclub/images/nextblack.png') }}"/></a>
                 {% endif %}
 
                 </div>

@@ -6,7 +6,11 @@ var hasMobileChanged = false;
 var hr = (new Date()).getHours();
 
 if ( hr >= 18 || hr <= 9) {
-    $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='"+darkThemeUrl+"' type='text/css' media='screen'>");
+    $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='"+assetUrl+"bundles/scrclubscrclub/css/skin/dark.css' type='text/css' media='screen'>");
+    $(".logo").find("img").attr("src", assetUrl+"bundles/scrclubscrclub/images/logo.png");
+    $("#prev").find("img").attr("src", assetUrl+"bundles/scrclubscrclub/images/prev.png");
+    $("#next").find("img").attr("src", assetUrl+"bundles/scrclubscrclub/images/next.png");
+
 }
 
 $(function () {
