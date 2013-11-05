@@ -36,7 +36,19 @@
 
 
 
-                                        <img src="{{ asset(mediaNode.media.getWebPath() | apply_filter("scr_carousel")) }}" alt="{{ mediaNode.media.name }}">
+                                        <span data-picture data-alt="{{ node.name }}">
+                                        <span data-src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_carousel_large') )}}"></span>
+                                        <span data-src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_carousel') )}}"     data-media="(min-width: 990px)"></span>
+
+                                            <!--[if (lt IE 9) & (!IEMobile)]>
+                                            <span data-src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_home') )}}"></span>
+                                            <![endif]-->
+
+
+                                            <noscript>
+                                            </noscript>
+                                    </span>
+
 
                                         <div class="carousel-caption"></div>
                                     </div>
