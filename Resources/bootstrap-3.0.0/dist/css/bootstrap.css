@@ -6866,7 +6866,10 @@ td.visible-print {
 }
 
 .row-menu {
-  padding-bottom: 10px;
+  /*
+  padding-bottom:10px;
+  */
+
 }
 
 .block-delimiter {
