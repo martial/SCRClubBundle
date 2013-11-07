@@ -5778,7 +5778,7 @@ body.modal-open,
   max-width: 200px;
   padding: 3px 8px;
   color: #ffffff;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   background-color: #000000;
   border-radius: 4px;
@@ -6838,7 +6838,7 @@ td.visible-print {
 }
 
 .container-fixed-menu {
-  margin-top: 140px;
+  margin-top: 160px;
   margin-bottom: 20px;
 }
 
@@ -7018,4 +7018,45 @@ td.visible-print {
 
 @media (min-width: 1200px) {
   
+}
+
+/* isotope */
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+
+  -webkit-transition-duration: 0.2s;
+     -moz-transition-duration: 0.2s;
+      -ms-transition-duration: 0.2s;
+       -o-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property: -moz-transform, opacity;
+      -ms-transition-property: -ms-transform, opacity;
+       -o-transition-property: -o-transform, opacity;
+          transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
 }
