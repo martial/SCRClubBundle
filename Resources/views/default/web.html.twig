@@ -12,82 +12,76 @@
     <div class="row home-grid" style="padding-bottom: 20px">
 
         <div class="img-block col-xs-12 col-md-6">
-            <div class="project-name"><a href="{{path('page', {'slug': node.slug}) }}">{{ node.name | raw }}</a></div>
-
             {{ node.description | raw}}
         </div>
 
         <div class="img-block col-xs-12 col-md-6">
-            {% for mediaNode in node.mediaNodes %}
+
+
+            <div class="row" style="padding-bottom:20px">
+                <div class="col-md-12"><div class="project-name" id ="filters">
+
+                        <a href="#" data-filter="*">All</a> /
+                        {% for category in categories %}
+                            <a href="#" data-filter=".cat-{{ category.id}} ">{{ category.name }}</a>
+                            {% if not loop.last %} / {% endif %}
+                        {% endfor %}
+
+                    </div></div>
+
+            </div>
+
+
+            <div class="isotope">
+
+                {% for child in node.children %}
 
 
 
-            {%  endfor %}
+                    {% for mediaNode in child.mediaNodes %}
+                        {% if loop.first %}
+
+
+
+                            <div class="element img-block {% for category in child.categories %} cat-{{ category.id  }}{% endfor %}" style="padding-right:20px; padding-bottom:20px;" >
+
+                                {% set link = child.getExtraText("link")  %}
+                                {% if link is empty %}
+                                <a href="#" target="_blank" data-toggle="tooltip" title="No longer online" >
+                                    {% else %}
+                                    <a href="{{link }}" target="_blank" data-toggle="tooltip" title="{{ child.header | raw }}" >
+                                        {% endif %}
+
+                                        <div class="img-content">
+
+                                            <img width="125" height="125" src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_web') )}}">
+                                            <div class="white-block" style=""  >{{ child.name }} - {{ child.getExtraText("year") }}</div>
+
+                                        </div>
+                                    </a>
+                            </div>
+
+
+
+                        {%  endif  %}
+                    {%  endfor  %}
+
+
+                {% endfor %}
+
+
+
+
+            </div>
+
+
+
 
         </div>
 
     </div>
 
-    <div class="row padding-20">
-        <div class="col-xs-12 col-md-12"><div class="block-delimiter"></div></div>
-    </div>
-
-    <div class="row" style="padding-bottom:20px">
-        <div class="col-md-12"><div class="project-name" id ="filters">
-
-                <a href="#" data-filter="*">All</a> /
-                {% for category in categories %}
-                    <a href="#" data-filter=".cat-{{ category.id}} ">{{ category.name }}</a>
-                    {% if not loop.last %} / {% endif %}
-                {% endfor %}
-
-        </div></div>
-
-    </div>
-
-
-    <div class="isotope">
-
-        {% for child in node.children %}
-
-
-
-            {% for mediaNode in child.mediaNodes %}
-                {% if loop.first %}
-
-
-
-                    <div class="element img-block {% for category in child.categories %} cat-{{ category.id  }}{% endfor %}" style="padding-right:20px" >
-
-                        {% set link = child.getExtraText("link")  %}
-                        {% if link is empty %}
-                        <a href="#" target="_blank" data-toggle="tooltip" title="No longer online" >
-                        {% else %}
-                        <a href="{{link }}" target="_blank" data-toggle="tooltip" title="{{ child.header | raw }}" >
-                        {% endif %}
-
-                            <div class="img-content">
-
-                                <img width="125" height="125" src="{{asset(mediaNode.media.getWebPath() | apply_filter('scr_web') )}}">
-                                <div class="white-block" style=""  >{{ child.name }} - {{ child.getExtraText("year") }}</div>
-
-                            </div>
-                        </a>
-                    </div>
-
-
-
-                {%  endif  %}
-            {%  endfor  %}
-
-
-        {% endfor %}
-
-
-
-
-    </div>
-
+   
 
 
 
