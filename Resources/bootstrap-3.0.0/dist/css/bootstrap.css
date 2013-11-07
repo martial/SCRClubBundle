@@ -6945,9 +6945,17 @@ td.visible-print {
   margin-right: 20px;
 }
 
+.element {
+  padding-right: 21px;
+  padding-bottom: 20px;
+}
+
 /* Small devices (tablets, 768px and up) */
 
 @media (max-width: 992px) {
+  .element {
+    padding-right: 16px;
+  }
   .no-mobile {
     display: none;
   }
