@@ -61,6 +61,12 @@
 
         }
 
+        #encore {
+            font-size: 20px;
+            font-family: "AkzidenzBQCondensed";
+
+        }
+
     </style>
 
 </head>
@@ -72,7 +78,8 @@
 
     <div class="row-fluid">
     <div id="search" class="col-md-6 centering">[{{ linkText(result.text) | raw  }}]</div>
-        </div>
+        <div id="encore" style="text-align: center" class="col-md-12 centering"><br/><a href="{{ path("pascale") }}">encore !</a> </div>
+    </div>
 
 
 </div>
