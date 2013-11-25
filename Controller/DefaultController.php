@@ -117,6 +117,9 @@ class DefaultController extends SiteController
         $twitter = $this->get("cms_bundle.twitter");
         $tweets = $twitter->getTweets("martialtwist");
 
+        $search = $twitter->getSearch("#administration #france");
+
+
         return $this->render('scrclubSCRClubBundle:default:'.$template->getUrl(), array(
             'nodes' => $nodes,
             'node' => $node,
@@ -129,6 +132,32 @@ class DefaultController extends SiteController
             'tweets' => $tweets
 
         ));
+
+
+    }
+
+    public function pascaleAction () {
+
+
+        $twitter = $this->get("cms_bundle.twitter");
+
+        $admin = $twitter->getSearch("#administration #france");
+        $culture = $twitter->getSearch("administration france");
+
+        $merged = array_merge($admin->statuses, $culture->statuses);
+        // get random
+
+        $count = count($merged);
+        $index = rand(0, $count -1 );
+
+        $result = $merged[$index];
+
+
+        return $this->render('scrclubSCRClubBundle:default:crochets.html.twig', array(
+                'search' => $merged,
+                'result' => $result
+
+            ));
 
 
     }

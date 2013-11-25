@@ -11,3 +11,6 @@ intro:
     pattern:  /
     defaults: { _controller: scrclubSCRClubBundle:Default:index, _locale:en }
 
+pascale:
+    pattern:  /pascale
+    defaults: { _controller: scrclubSCRClubBundle:Default:pascale, _locale:en }
