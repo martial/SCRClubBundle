@@ -1,6 +1,6 @@
 /**
 * bootstrap.js v3.0.0 by @fat and @mdo
-* Copyright 2013 Twitter Inc.
+* Copyright 2014 Twitter Inc.
 * http://www.apache.org/licenses/LICENSE-2.0
 */
 if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
@@ -2005,7 +2005,7 @@ var hasMobileChanged = false;
 
 var hr = (new Date()).getHours();
 
-if ( hr >= 18 || hr <= 9) {
+if ( hr >= 12 || hr <= 9) {
     $("head link[rel='stylesheet']").last().after("<link rel='stylesheet' href='"+assetUrl+"bundles/scrclubscrclub/css/skin/dark.css' type='text/css' media='screen'>");
     $(".logo").find("img").attr("src", assetUrl+"bundles/scrclubscrclub/images/logo.png");
     $("#prev").find("img").attr("src", assetUrl+"bundles/scrclubscrclub/images/prev.png");
