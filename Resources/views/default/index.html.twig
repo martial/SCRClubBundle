@@ -39,6 +39,22 @@
     <meta property="og:title" content="SCREEN-CLUB" />
     <meta property="og:description" content="Portfolio of Martial Geoffre-Rouland & collaborators." />
 
+    {% for node in nodes %}
+
+
+    {%  if loop.first %}
+
+    {% for child in node.children %}
+
+    {% if loop.first %}
+    {% for mediaNode in child.mediaNodes %}
+    {% if loop.first %}
+        <meta property="og:image" content="{{asset(mediaNode.media.getWebPath()}}" />
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
     <link rel="icon" href="{{ asset("favicon.ico")}}" type="image/x-icon" />
 
 
