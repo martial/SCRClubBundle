@@ -6857,12 +6857,16 @@ td.visible-print {
 .logo-header {
   margin-top: -4px;
   font-family: "AkzidenzBQCondensed";
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .logo-header p {
-  margin-top: -10px;
-  font-size: 23px;
+  margin-top: -6px;
+  font-size: 18px;
+}
+
+.logo img {
+  width: 46px;
 }
 
 .row-menu {
@@ -6956,6 +6960,16 @@ td.visible-print {
 /* Small devices (tablets, 768px and up) */
 
 @media (max-width: 992px) {
+  .logo-header {
+    font-size: 32px;
+  }
+  .logo-header p {
+    margin-top: -10px;
+    font-size: 23px;
+  }
+  .logo img {
+    width: auto;
+  }
   .element {
     padding-right: 16px;
   }
