@@ -10,7 +10,7 @@
         {% for node in node.children %}
 
             <div class="row educ-grid">
-                <div class="col-xs-12 col-md-6 text-block ">
+                <div class="col-xs-12 col-md-6 col-lg-6 text-block ">
 
                     <div class="project-name"><a href="{{path('page', {'slug': node.slug}) }}">{{ node.name | raw }}</a></div>
                     {{ node.header | raw }}
@@ -18,12 +18,12 @@
                 </div>
 
 
-                <div class=" col-xs-12 col-md-3 padding-20 ">
+                <div class=" col-xs-12 col-md-3 col-lg-4 padding-20 ">
                     <div class="project-name">&nbsp;</div>
                     {{ node.description | raw }}
                 </div>
 
-                <div class="col-xs-12 col-md-3 padding-20 ">
+                <div class="col-xs-12 col-md-3 col-lg-2 padding-20 ">
                     <div id="carousel-{{ node.id }}" class="carousel">
                         <div class="carousel-inner">
 
@@ -61,11 +61,11 @@
                         {% if  numImages > 1 %}
                         <!-- Controls -->
                         <a class="left carousel-control" href="#carousel-{{ node.id }}" data-slide="prev">
-                            <img class="icon-prev" src="{{ asset('bundles/scrclubscrclub/images/prev.png') }}"/>
+                            <img width="inherit" class="icon-prev" src="{{ asset('bundles/scrclubscrclub/images/prev.png') }}"/>
 
                         </a>
                         <a class="right carousel-control" href="#carousel-{{ node.id }}" data-slide="next">
-                            <img class="icon-next" src="{{ asset('bundles/scrclubscrclub/images/next.png') }}"/>
+                            <img width="inherit" class="icon-next" src="{{ asset('bundles/scrclubscrclub/images/next.png') }}"/>
                         </a>
 
                         {% endif %}
