@@ -100,7 +100,9 @@
 
     <script>
 
-        $(document).ready(function() {
+
+        $(function(){
+
 
             $('.isotope').isotope({
                 animationOptions: {
@@ -109,14 +111,6 @@
                     queue: false
                 }
             });
-
-        });
-
-
-        $(function(){
-
-
-
 
             $('#filters a').click(function(){
                 var selector = $(this).attr('data-filter');
@@ -128,6 +122,18 @@
                 'placement': 'auto top',
                 container : "body",
                 html : true
+            });
+
+        });
+
+        $(document).ready(function() {
+
+            $('.isotope').isotope({
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
             });
 
         });
