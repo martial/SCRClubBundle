@@ -6861,12 +6861,16 @@ td.visible-print {
 }
 
 .logo-header p {
-  margin-top: -10px;
+  margin-top: -6px;
   font-size: 20px;
 }
 
+.logo {
+  text-align: right;
+}
+
 .logo img {
-  width: 44px;
+  width: 50px;
 }
 
 .row-menu {
