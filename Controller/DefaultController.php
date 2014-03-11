@@ -114,10 +114,13 @@ class DefaultController extends SiteController
             $next = $next[0];
 
 
+        $tweets = array();
+        if($slug =="info") {
         $twitter = $this->get("cms_bundle.twitter");
         $tweets = $twitter->getTweets("martialtwist");
+        }
 
-        $search = $twitter->getSearch("#administration #france");
+        //$search = $twitter->getSearch("#administration #france");
 
 
         return $this->render('scrclubSCRClubBundle:default:'.$template->getUrl(), array(
