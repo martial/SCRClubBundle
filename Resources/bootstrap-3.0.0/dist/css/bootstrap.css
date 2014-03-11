@@ -745,8 +745,8 @@ pre code {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 45px;
+  padding-left: 45px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -914,7 +914,7 @@ pre code {
 
 @media (min-width: 768px) {
   .container {
-    max-width: 750px;
+    max-width: 100%;
   }
   .col-sm-1,
   .col-sm-2,
@@ -1068,7 +1068,7 @@ pre code {
 
 @media (min-width: 992px) {
   .container {
-    max-width: 970px;
+    max-width: 100%;
   }
   .col-md-1,
   .col-md-2,
@@ -1231,7 +1231,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 100%;
   }
   .col-lg-1,
   .col-lg-2,
@@ -6901,7 +6901,7 @@ td.visible-print {
 }
 
 .home-grid img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .educ-grid {
@@ -6909,7 +6909,7 @@ td.visible-print {
 }
 
 .educ-grid img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .educ-grid .text-block {
