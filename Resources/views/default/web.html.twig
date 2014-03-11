@@ -99,7 +99,9 @@
 </div>
 
     <script>
-        $(function(){
+
+        $(document).ready(function() {
+
             $('.isotope').isotope({
                 animationOptions: {
                     duration: 750,
@@ -107,6 +109,14 @@
                     queue: false
                 }
             });
+
+        });
+
+
+        $(function(){
+
+
+
 
             $('#filters a').click(function(){
                 var selector = $(this).attr('data-filter');
