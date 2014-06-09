@@ -14,3 +14,26 @@ intro:
 pascale:
     pattern:  /pascale
     defaults: { _controller: scrclubSCRClubBundle:Default:pascale, _locale:en }
+
+
+elecpicole_delete:
+    pattern:  /ep/delete
+    defaults: { _controller: scrclubSCRClubBundle:ElectroPicole:delete, _locale:en }
+
+elecpicole_upload:
+    pattern:  /ep/upload
+    defaults: { _controller: scrclubSCRClubBundle:ElectroPicole:upload, _locale:en }
+
+elecpicole_getxml:
+    pattern:  /ep/get
+    defaults: { _controller: scrclubSCRClubBundle:ElectroPicole:getXML, _locale:en }
+
+
+kiblind_print:
+    pattern:  /kiblind/printXML
+    defaults: { _controller: scrclubSCRClubBundle:Kiblind:printXML, _locale:en }
+
+kiblind_save:
+    pattern:  /kiblind/save/{id}
+    defaults: { _controller: scrclubSCRClubBundle:Kiblind:save, _locale:en, id:null }
+
