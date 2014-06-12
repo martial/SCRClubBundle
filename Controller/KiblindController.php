@@ -52,6 +52,22 @@
 
         }
 
+        public function deleteAction ($id) {
+
+            if(isset($id)) {
+                $anim = $this->getDoctrine()->getRepository('scrclub\SCRClubBundle\Entity\KiblindAnimation')->findOneById($id);
+            }
+
+            $em = $this->getDoctrine()->getManager();
+            $em->remove($anim);
+            $em->flush();
+
+            return new Response("ok");
+
+            //$frames = explode("F", $values);
+
+        }
+
         public function printXMLAction () {
 
 

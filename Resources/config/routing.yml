@@ -37,3 +37,6 @@ kiblind_save:
     pattern:  /kiblind/save/{id}
     defaults: { _controller: scrclubSCRClubBundle:Kiblind:save, _locale:en, id:null }
 
+kiblind_delete:
+    pattern:  /kiblind/delete/{id}
+    defaults: { _controller: scrclubSCRClubBundle:Kiblind:delete, _locale:en, id:null }
