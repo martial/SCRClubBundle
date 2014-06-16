@@ -2002,6 +2002,7 @@ var win = jQuery(window);
 win.bind('resize scroll', updateMenu);
 var isMobile;
 var hasMobileChanged = false;
+var bColumnFixed = false;
 
 var hr = (new Date()).getHours();
 
@@ -2152,20 +2153,35 @@ function updateMenu () {
     if(win.width() >= 992 ) {
         $("#column-project").css('margin-top', value+'px');
 
+        var currentPos = $("#column-project").css('position');
+        $("#column-project").css('position', 'static');
+
         var position = $("#column-project").offset().top;
         var height =  $("#column-project").height();
+        //$("#column-project").css('position', currentPos);
 
+        console.log("--");
+        console.log(position + height);
+        console.log(win.height());
 
-
-        if (position + height > win.height()) {
+        if (bColumnFixed && position + height > win.height()) {
             $("#column-project").css('position', 'static');
+            $("#column-project").css('width', '');
+            $("#column-project").css('padding-right', '');
+            bColumnFixed = false;
         } else {
             $("#column-project").css('position', 'fixed');
-
+            $("#column-project").css('width', '25%');
+            $("#column-project").css('padding-right', '45px');
+            bColumnFixed = true;
         }
 
     } else {
+        bColumnFixed = false;
         $("#column-project").css('margin-top', '0px');
+        $("#column-project").css('width', '');
+        $("#column-project").css('position', 'static');
+        $("#column-project").css('padding-right', '');
     }
 
     //

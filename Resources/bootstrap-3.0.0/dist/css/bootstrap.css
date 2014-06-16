@@ -6964,6 +6964,12 @@ td.visible-print {
 /* Small devices (tablets, 768px and up) */
 
 @media (max-width: 992px) {
+  .alpha-xs {
+    padding-left: 0;
+  }
+  .beta-xs {
+    padding-right: 0;
+  }
   #column-project {
     position: relative;
   }
@@ -7009,7 +7015,7 @@ td.visible-print {
   }
   .nav-menu-container {
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 20px;
   }
   .top-menu {
