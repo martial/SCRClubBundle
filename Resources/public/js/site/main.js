@@ -156,13 +156,15 @@ function updateMenu () {
         var height =  $("#column-project").height();
 
 
-
+        /*
         if (position + height > win.height()) {
             $("#column-project").css('position', 'static');
         } else {
             $("#column-project").css('position', 'fixed');
 
         }
+
+        */
 
     } else {
         $("#column-project").css('margin-top', '0px');
