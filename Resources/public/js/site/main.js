@@ -13,7 +13,7 @@ if ( hr >= 12 || hr <= 9) {
 
 }
 
-$(function () {
+$(document).ready(function () {
 
     //animateMenu();
     updateMenu();
@@ -148,6 +148,30 @@ function updateMenu () {
     }
 
     $(".page-header").css('margin-top', value+'px');
+
+    if(win.width() >= 992 ) {
+        $("#column-project").css('margin-top', value+'px');
+
+        var position = $("#column-project").offset().top;
+        var height =  $("#column-project").height();
+
+
+
+        if (position + height > win.height()) {
+            $("#column-project").css('position', 'static');
+        } else {
+            $("#column-project").css('position', 'fixed');
+
+        }
+
+    } else {
+        $("#column-project").css('margin-top', '0px');
+    }
+
+    //
+
+
+
 
 }
 

@@ -10,7 +10,7 @@
 
             <div class="row home-grid">
                 <div class="col-xs-12 col-md-3 padding-20">
-
+                    <div id="column-project" class="" >
                     <div class="project-name">{{node.name | raw }}</div>
 
                     {% if node.header is not empty %}
@@ -18,7 +18,7 @@
                     <div class="block-delimiter padding-20" style="margin-bottom:20px;"></div>
                     {% endif %}
                     {{node.description | raw }}
-
+                    </div>
                 </div>
                 <div class=" col-xs-12 col-md-9">
                     {%  for mediaNode in node.mediaNodes %}

@@ -13,10 +13,12 @@
 
         <div class="img-block col-xs-12 col-md-6">
 
+            <div class="">
             {{ node.header | raw}}
 
             <div class="row" style="padding-bottom: 20px; padding-top: 20px;">
                 <div class="col-xs-12 col-md-12 "><div class="block-delimiter"></div></div>
+            </div>
             </div>
 
             {{ node.description | raw}}
@@ -100,6 +102,17 @@
 
     <script>
 
+        $(window).load(function(){
+            $('.isotope').isotope({
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+            });
+
+        });
+
 
         $(function(){
 
@@ -111,6 +124,7 @@
                     queue: false
                 }
             });
+
 
             $('#filters a').click(function(){
                 var selector = $(this).attr('data-filter');
@@ -126,17 +140,7 @@
 
         });
 
-        $(document).ready(function() {
 
-            $('.isotope').isotope({
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
-
-        });
 
     </script>
 

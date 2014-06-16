@@ -22,6 +22,9 @@
 
                 <ul class="top-menu list-unstyled">
                 {% for nodeSection in nodes %}
+
+
+
                     <li {% if nodeSection.id == node.id or nodeSection.id == node.parent.id or not node and loop.first %}
                     class="active"
                     {% endif %}><a href="{{path('page', {'slug': nodeSection.slug}) }}">{{nodeSection.name}}</a></li>
@@ -31,6 +34,7 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-3">
 
+
                 {%  for lang in langs %}
 
 
@@ -39,7 +43,7 @@
                     {% set route = "home" %}
                     {% endif %}
 
-                    <a href="{{ path(route, app.request.get('_route_params') | merge({'_locale':  lang.locale })) }}" >{{ lang.locale }}</a>
+                    <a href="{{ path(route, app.request.get('_route_params') | merge({'_locale':  lang.locale })) }}" {% if  app.request.locale == lang.locale %}style="text-decoration:underline"{% endif %} >{{ lang.locale }}</a>
 
                     {%  if not loop.last %}
                         <span> / </span>

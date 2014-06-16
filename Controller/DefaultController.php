@@ -2,6 +2,7 @@
 
 namespace scrclub\SCRClubBundle\Controller;
 
+use Doctrine\Common\Util\Debug;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use scrclub\CMSBundle\Controller\SiteController;
 use Symfony\Component\HttpFoundation\Response;
@@ -25,6 +26,8 @@ class DefaultController extends SiteController
             $config = $configs[0];
 
         }
+
+
 
 
 
@@ -104,6 +107,10 @@ class DefaultController extends SiteController
         //$prev = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->findOneById($node->getLft());
         //$next = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->findOneById($node->getRgt());
 
+       $prev = null;
+       $next = null;
+       if ($node->getType() == "post" ) {
+
         $prev = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->getPrevSiblings($node);
         $next = $this->getDoctrine()->getRepository('scrclub\CMSBundle\Entity\Node')->getNextSiblings($node);
 
@@ -112,6 +119,8 @@ class DefaultController extends SiteController
 
         if(count($next) > 0 )
             $next = $next[0];
+
+       }
 
 
         $tweets = array();
