@@ -2160,10 +2160,7 @@ function updateMenu () {
         var height =  $("#column-project").height();
         //$("#column-project").css('position', currentPos);
 
-        console.log("--");
-        console.log(position + height);
-        console.log(win.height());
-
+        /*
         if (bColumnFixed && position + height > win.height()) {
             $("#column-project").css('position', 'static');
             $("#column-project").css('width', '');
@@ -2175,6 +2172,7 @@ function updateMenu () {
             $("#column-project").css('padding-right', '45px');
             bColumnFixed = true;
         }
+        */
 
     } else {
         bColumnFixed = false;
