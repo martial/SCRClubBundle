@@ -62,7 +62,9 @@ module.exports = function(grunt) {
           '../public/js/jquery.shuffleLetters.js',
           '../public/js/jquery.animate-colors.js',
           '../public/js/picturefill.js',
-            '../public/js/jquery.isotope.js'
+          '../public/js/jquery.isotope.js',
+            '../public/js/jquery.transit.min.js',
+            '../public/js/color.transition.js'
 
         ],
         dest: '../public/js/bootstrap/<%= pkg.name %>.js'

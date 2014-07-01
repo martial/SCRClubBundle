@@ -12,6 +12,39 @@ if ( hr >= 12 || hr <= 9) {
     $("#prev").find("img").attr("src", assetUrl+"bundles/scrclubscrclub/images/prev.png");
     $("#next").find("img").attr("src", assetUrl+"bundles/scrclubscrclub/images/next.png");
 
+
+    $(".img-block").hover(function () {
+
+        var box = $(this).find(".white-block");
+        box.animate({'background-color':'#000000'},100)
+        box.animate({'color':'#FFFFFF'},70)
+        //box.transition({ background-color: #FF0000 });
+
+    }, function () {
+
+        var box = $(this).find(".white-block");
+        box.animate({'background-color':'#FFFFFF'},100)
+        box.animate({'color':'#000000'},70)
+    })
+
+
+} else {
+
+
+    $(".img-block").hover(function () {
+
+        var box = $(this).find(".white-block");
+        box.animate({'background-color':'#FFFFFF'},100)
+        box.animate({'color':'#000000'},70)
+        //box.transition({ background-color: #FF0000 });
+
+    }, function () {
+
+        var box = $(this).find(".white-block");
+        box.animate({'background-color':'#000000'},100)
+        box.animate({'color':'#FFFFFF'},70)
+    })
+
 }
 
 $(document).ready(function () {
@@ -150,6 +183,8 @@ function updateMenu () {
 
     $(".page-header").css('margin-top', value+'px');
 
+
+    /*
     if(win.width() >= 992 ) {
         $("#column-project").css('margin-top', value+'px');
 
@@ -160,7 +195,7 @@ function updateMenu () {
         var height =  $("#column-project").height();
         //$("#column-project").css('position', currentPos);
 
-        /*
+
         if (bColumnFixed && position + height > win.height()) {
             $("#column-project").css('position', 'static');
             $("#column-project").css('width', '');
@@ -172,7 +207,7 @@ function updateMenu () {
             $("#column-project").css('padding-right', '45px');
             bColumnFixed = true;
         }
-        */
+
 
     } else {
         bColumnFixed = false;
@@ -181,6 +216,10 @@ function updateMenu () {
         $("#column-project").css('position', 'static');
         $("#column-project").css('padding-right', '');
     }
+
+*/
+
+
 
     //
 
