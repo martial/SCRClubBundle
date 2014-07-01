@@ -23,8 +23,8 @@ if ( hr >= 12 || hr <= 9) {
     }, function () {
 
         var box = $(this).find(".white-block");
-        box.animate({'background-color':'#FFFFFF'},100)
-        box.animate({'color':'#000000'},70)
+        box.animate({'background-color':'#FFFFFF'},200)
+        box.animate({'color':'#000000'},140)
     })
 
 
@@ -41,8 +41,8 @@ if ( hr >= 12 || hr <= 9) {
     }, function () {
 
         var box = $(this).find(".white-block");
-        box.animate({'background-color':'#000000'},100)
-        box.animate({'color':'#FFFFFF'},70)
+        box.animate({'background-color':'#000000'},200)
+        box.animate({'color':'#FFFFFF'},140)
     })
 
 }
