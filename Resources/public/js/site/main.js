@@ -19,9 +19,7 @@ if ( hr >= 12 || hr <= 9) {
         box.animate({'background-color':'#000000'},100)
         box.animate({'color':'#FFFFFF'},70)
 
-        $(this).find(".img-container").transition({
-            scale: '1.03'
-        }, 150,"easeInQuad" );
+
 
         //box.transition({ background-color: #FF0000 });
 
@@ -31,9 +29,7 @@ if ( hr >= 12 || hr <= 9) {
         box.animate({'background-color':'#FFFFFF'},200)
         box.animate({'color':'#000000'},140)
 
-        $(this).find(".img-container").transition({
-            scale: '1'
-        }, 250,"easeOutQuad");
+
     })
 
 
@@ -57,6 +53,29 @@ if ( hr >= 12 || hr <= 9) {
 }
 
 $(document).ready(function () {
+
+    $(".img-block").mousedown(function () {
+
+
+
+        $(this).find(".img-container").transition({
+            scale: '0.99'
+        }, 150,"easeInQuad" );
+        //box.transition({ background-color: #FF0000 });
+
+    })
+
+
+    $("body").mouseup(function () {
+
+        console.log("up")
+
+        $(".img-container").transition({
+            scale: '1'
+        }, 150,"easeInQuad" );
+        //box.transition({ background-color: #FF0000 });
+
+    })
 
     //animateMenu();
     updateMenu();
